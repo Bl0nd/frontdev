@@ -173,36 +173,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome'])) {
                 </div>
 
                 <div>
-                    <h3>Serviços:</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </div>
-
-                <div>
                     <h3>Siga-nos em:</h3>
                     <ul class="social-icons">
                         <li>
                             <a href="https://www.instagram.com/frontddev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                <img src="./assets/img/insta-footer.png" alt="Instagram"> Instagram
+                                <img src="./assets/img/insta-footer.png" alt="Instagram">
                             </a>
                         </li>
                         <li>
                             <a href="https://wa.me/5511977823733" target="_blank">
-                                <img src="./assets/img/whats-footer.png" alt="WhatsApp"> WhatsApp
+                                <img src="./assets/img/whats-footer.png" alt="WhatsApp">
                             </a>
                         </li>
                         <li>
                             <a href="https://facebook.com" target="_blank">
-                                <img src="./assets/img/face-footer.png" alt="Facebook"> Facebook
+                                <img src="./assets/img/face-footer.png" alt="Facebook">
                             </a>
                         </li>
                         <li>
                             <a href="https://linkedin.com" target="_blank">
-                                <img src="./assets/img/linkedin-footer.png" alt="LinkedIn"> Linkedin
+                                <img src="./assets/img/linkedin-footer.png" alt="LinkedIn">
                             </a>
                         </li>
                     </ul>
