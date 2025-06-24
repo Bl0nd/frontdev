@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=" FRONT DEV ">
+    <link rel="shortcut icon" href="./assets/img/flaticon.png" type="image/x-icon">
+    <title>FrontDev/agencia-de-criacao-de-sites</title>
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <!--  LITY CSS -->
+    <link rel="stylesheet" href="assets/css/lity.min.css">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body>
+    <header id="topo-fixo">
+        <div class="site">
+            <div class="logo" href="index.php">FD</div>
+
+            <nav>
+                <?php
+                $pgAtual = basename($_SERVER['PHP_SELF'], '.php');
+                // var_dump($pgAtual);
+
+                // if($pgAtual == 'index'){
+                //     var_dump('ativo');
+                // }else{
+                //     var_dump('vazio');
+                // }
+                ?>
+                <ul>
+                    <li><a href="index.php" class="<?php echo ($pgAtual == 'index') ? 'ativo' : ''; ?>">Home</a></li>
+                    <li><a href="sobre.php" class="<?php echo ($pgAtual == 'sobre') ? 'ativo' : ''; ?>">Sobre</a></li>
+                    <li><a href="servicos.php" class="<?php echo ($pgAtual == 'servicos') ? 'ativo' : ''; ?>">Serviços</a></li>
+                    <li><a href="contato.php" class="<?php echo ($pgAtual == 'contato') ? 'ativo' : ''; ?>">Contato</a></li>
+                </ul>
+                <label class="theme-switch">
+                    <input type="checkbox" id="dark-mode-toggle" class="theme-checkbox">
+                    <span class="slider"></span>
+                </label>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <video src="./assets/img/Banner para site com aviso de estamos em manutenção.mp4"
+                loop
+                width="100%"
+                autoplay
+                muted
+                loop
+                playsinline
+                poster
+                style="pointer-events: none;">
+            </video>
+            <div class="site">
+                <div class="texto-video">
+                    <h2>Front Dev<br>Agência de criação de sites</h2>
+                    <p>Tudo que seu negócio precisa!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="nossa-historia wow animate__animated animate__fadeInUp">
+            <div class="site">
+                <div>
+                    <h3 class="titulo">Nossa História</h3>
+                </div>
+
+                <div class="conteudo">
+
+                    <div class="coluna-esquerda">
+                        <h3>Sobre Nós</h3>
+                        <p>
+                            Somos uma agência jovem e inovadora, especializada no desenvolvimento de sites modernos, funcionais e personalizados.
+                            Apesar de estarmos começando agora, trazemos uma visão atual e focada nas tendências do mercado digital, oferecendo
+                            soluções criativas e tecnológicas para empresas que desejam se destacar online.
+                        </p>
+                        <p>Nosso compromisso é criar sites que não apenas representem a sua marca,
+                            mas também entreguem resultados reais, combinando design atrativo, performance e estratégia. Juntos, vamos transformar ideias em projetos digitais de sucesso!</p>
+                        <a href="sobre.php" class="btn-veja-mais">Veja Mais</a>
+                    </div>
+
+                    <div class="predio">
+                        <img src="./assets/img/predio.png" alt="nossa-historia">
+                    </div>
+
+                    <div class="coluna-direita">
+                        <ul class="lista-itens">
+                            <li class="item">
+                                <div class="icone wow animate__animated animate__fadeInDown">
+                                    <img src="./assets/img/icone1.png" alt="Ícone 1">
+                                </div>
+                                <p class="wow animate__animated animate__fadeInDown">Transformamos Ideias em Experiências Digitais.</p>
+                            </li>
+
+                            <li class="item">
+                                <div class="icone wow animate__animated animate__fadeInDown">
+                                    <img src="./assets/img/icone2.png" alt="Ícone 2">
+                                </div>
+                                <p class="wow animate__animated animate__fadeInDown">Inovação de Quem Começa com Foco no Futuro.</p>
+                            </li>
+
+                            <li class="item">
+                                <div class="icone wow animate__animated animate__fadeInDown">
+                                    <img src="./assets/img/icone3.png" alt="Ícone 3">
+                                </div>
+                                <p class="wow animate__animated animate__fadeInDown">Seu Sucesso Online Começa Aqui!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="metodologia wow animate__animated animate__fadeInUp">
+            <div class="site">
+                <h2>Metodologia</h2>
+                <div class="caixamt">
+
+                    <div>
+                        <div class="borda">
+                            <h3>1</h3>
+                        </div>
+                        <h4>Planejamento</h4>
+                        <p> Entendemos suas necessidades, definimos objetivos e traçamos a melhor estratégia.</p>
+                    </div>
+
+                    <div>
+                        <div class="borda">
+                            <h3>2</h3>
+                        </div>
+                        <h4>Design</h4>
+                        <p>Desenvolvemos layouts modernos e personalizados, focados na experiência do usuário.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="borda">
+                            <h3>3</h3>
+                        </div>
+                        <h4>Conteúdo</h4>
+                        <p>Estruturamos informações relevantes e otimizadas para atrair e engajar o público.
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <div class="borda">
+                            <h3>4</h3>
+                        </div>
+                        <h4>Desenvolvimento</h4>
+                        <p>A partir do design aprovado, transformamos o projeto em um site totalmente funcional, rápido e responsivo.</p>
+                    </div>
+
+                    <div>
+                        <div class="borda">
+                            <h3>5</h3>
+                        </div>
+                        <h4>Entrega</h4>
+                        <p>Revisão final, validações e publicação do seu projeto com acompanhamento dos acessos e do
+                            desempenho.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="balao wow animate__animated animate__fadeInUp">
+            <div class="site">
+                <div class="textoConteudo">
+                    <p class="tagline">EMPRESA DE DESENVOLVIMENTO WEB</p>
+                    <h3>DESENVOLVENDO SUA PRESENÇA ONLINE</h3>
+                    <p class="descri">
+                        Nossos sites são desenvolvidos para que você tenha autonomia em gerenciar seu próprio conteúdo.<br>Através de um painel administrativo você terá liberdade para adicionar textos, imagens, vídeos e até mesmo criar páginas adicionais. No final do desenvolvimento do seu site você receberá um login e senha e poderá alimentá-lo com:
+                    </p>
+                    <div class="FVT">
+                        <div class="iconFVT">📷 Fotos</div>
+                        <div class="iconFVT">🎥 Vídeos</div>
+                        <div class="iconFVT">📝 Textos</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/pessoa-com-balão.png" alt="Astronauta em uma caixa" />
+                </div>
+            </div>
+            <div>
+                <p><span>⭐ Criação de Sites Profissionais é a nossa missão.</span></p>
+            </div>
+        </section>
+
+        <section class="carrossel wow animate__animated animate__fadeInUp">
+            <div class="titulo-carrossel">
+                <h3>Tecnologias que trabalhamos</h3>
+            </div>
+            <div class="galeria">
+                <img src="./assets/img/FtHtml.png" alt="html">
+                <img src="./assets/img/css.png" alt="css">
+                <img src="./assets/img/js.png" alt="js">
+                <img src="./assets/img/php.png" alt="php">
+                <img src="./assets/img/sql.png" alt="sql">
+            </div>
+        </section>
+
+        <section class="swot wow animate__animated animate__fadeInUp">
+            <h2>Análise SWOT:<br> Nossa Estratégia</h2>
+            <p class="subswot"> É uma ferramenta de análise estratégica usada para entender melhor o ambiente interno e externo de uma organização, projeto ou ideia.</p>
+            <div class="conteudoswot">
+                <div class="swot-item">
+                    <div class="bola yellow">S</div>
+                    <h3>Strengths (Forças)</h3>
+                    <ul>
+                        <li>Equipe altamente qualificada e comprometida com resultados excepcionais.</li>
+                        <li>Atendimento personalizado, oferecendo soluções específicas para cada cliente.</li>
+                        <li>Uso de tecnologias modernas e metodologias ágeis para maior eficiência.</li>
+                        <li>Histórico comprovado de sucesso em projetos e alta retenção de clientes.</li>
+                    </ul>
+                </div>
+                <div class="swot-item">
+                    <div class="bola orange">W</div>
+                    <h3>Weaknesses (Fraquezas)</h3>
+                    <ul>
+                        <li>Dependência de ferramentas externas para processos críticos.</li>
+                        <li>Reconhecimento limitado da marca em mercados altamente competitivos.</li>
+                        <li>Recursos financeiros reduzidos para grandes investimentos em marketing.</li>
+                        <li>Base de operações ainda concentrada em uma região específica.</li>
+                    </ul>
+                </div>
+                <div class="swot-item">
+                    <div class="bola blue">O</div>
+                    <h3>Opportunities (Oportunidades)</h3>
+                    <ul>
+                        <li>Expansão da demanda por soluções digitais em diversos setores.</li>
+                        <li>Possibilidade de criação de parcerias estratégicas com empresas inovadoras.</li>
+                        <li>Adaptação a novas tecnologias que aprimoram a experiência do cliente.</li>
+                        <li>Crescimento de programas de apoio a startups e pequenas empresas.</li>
+                    </ul>
+                </div>
+                <div class="swot-item">
+                    <div class="bola red">T</div>
+                    <h3>Threats (Ameaças)</h3>
+                    <ul>
+                        <li>Alterações econômicas que podem afetar o orçamento de clientes.</li>
+                        <li>Riscos de obsolescência tecnológica devido ao rápido avanço do mercado.</li>
+                        <li>Mudanças regulatórias que podem impactar a operação do negócio.</li>
+                        <li>Aumento das expectativas do consumidor, exigindo maior agilidade e inovação.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="wow animate__animated animate__fadeInUp">
+            <div class="promo">
+                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="#f0c219" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,181.3C320,181,400,139,480,149.3C560,160,640,224,720,208C800,192,880,96,960,90.7C1040,85,1120,171,1200,202.7C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+                    </svg></div>
+                <div class="cor">
+                    <h3>Gerando Negócio</h3>
+                    <h4>Escolha a FRONT DEV e tenha seu site pronto!</h4>
+                    <p>
+                        Desenvolvemos sites modernos e responsivos, com<br>nossa grande experiência vamos
+                        desenvolver o seu<br>projeto do início ao final, rápido, bonito e<br>principalmente, lucrativo.
+                    </p>
+                    <div>
+                        <a href="contato.php">Mandar Email</a>
+                        <a href="#servicos">Conferir nossos Serviços</a>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#f0c219" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,181.3C320,181,400,139,480,149.3C560,160,640,224,720,208C800,192,880,96,960,90.7C1040,85,1120,171,1200,202.7C1280,235,1360,213,1400,202.7L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+                </svg>
+            </div>
+        </section>
+
+        <section class="pergunta wow animate__animated animate__fadeInUp">
+            <div class="site">
+                <div class="conteudo-pergunta">
+                    <h3>Perguntas Frequentes</h3>
+                    <details>
+                        <summary>Quais serviços de desenvolvimento web vocês oferecem?</summary>
+                        <div>
+                            <p>Desenvolvemos websites institucionais, landing pages, sistemas personalizados e aplicativos web. Oferecemos soluções completas, desde o design até a implementação e manutenção.</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>Quanto tempo leva?</summary>
+                        <div>
+                            <p>O tempo de desenvolvimento varia de acordo com o escopo do projeto. Sites simples podem levar de 4 a 6 semanas, enquanto projetos mais complexos podem levar de 8 a 12 semanas ou mais.</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>Oferecem suporte e manutenção após o lançamento do site?</summary>
+                        <div>
+                            <p>Sim! Oferecemos pacotes de suporte e manutenção para garantir que o site esteja sempre atualizado e funcionando corretamente.</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>Como é o processo de design?</summary>
+                        <div>
+                            <p>Trabalhamos em estreita colaboração com nossos clientes para garantir que o design atenda às suas expectativas. Apresentamos wireframes e protótipos para feedback antes de partir para a fase final de desenvolvimento.</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>Qual é o custo para desenvolver um site?</summary>
+                        <div>
+                            <p>O custo varia de acordo com as necessidades específicas do projeto. Oferecemos pacotes flexíveis e personalizados com base no tamanho e complexidade do site.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <?php require_once('conteudo/footer.php'); ?>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- LITY JS -->
+    <script src="assets/js/lity.min.js"> </script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
