@@ -595,7 +595,7 @@ svg {
 
 /*#region PERGUNTAS*/
 .pergunta {
-    padding: 20px 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -610,10 +610,11 @@ svg {
 .conteudo-pergunta {
     padding: 20px;
     border-radius: 10px;
+    background-color: var(--cor-fundo, #fff); /* Adiciona cor de fundo opcional */
 }
 
 .pergunta h3 {
-    font-family: 'bevan', italic;
+    font-family: 'Bevan', cursive;
     text-decoration: underline;
     font-size: 2.5em;
     color: var(--cor-principal);
@@ -626,18 +627,38 @@ details {
     font-size: 1.125em;
     border-radius: 20px;
     margin-bottom: 15px;
-    padding: 10px;
-}
-
-details>div {
-    height: 0;
+    padding: 5px;
     overflow: hidden;
-    transition: height 0.5s ease;
+    transition: all 0.3s ease;
 }
 
-details[open]>div {
-    height: auto;
+details > div {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease, padding 0.3s ease;
+}
+
+details[open] > div {
+    max-height: 500px; 
     padding: 10px 0;
+}
+
+details summary {
+    background: var(--cor-destaque);
+    color: var(--cor-terciaria);
+    font-size: 1.5em;
+    padding: 15px 20px;
+    border-radius: 20px;
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+details summary:hover {
+    background: var(--cor-destaque-hover, #e0b347);
+    transform: scale(1.02);
 }
 
 summary {
@@ -704,12 +725,6 @@ footer>div {
     color: #FFC107;
 }
 
-/* Links com '>' */
-.footer ul li a:before {
-    margin-right: 5px;
-    color: #FFC107;
-}
-
 .footer ul li a:hover:before {
     color: #FFC107;
 }
@@ -717,30 +732,42 @@ footer>div {
 .social-icons {
     list-style: none;
     padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .social-icons li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+    margin: 0;
 }
 
 .social-icons li a {
     text-decoration: none;
     color: #000;
     font-size: 14px;
-    margin-left: 10px;
     display: flex;
     align-items: center;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+.social-icons li a:hover {
+    transform: scale(1.2);
+    text-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .social-icons li a img {
     width: 40px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
 }
 
-.social-icons li a:hover {
-    color: #FFC107;
+.social-icons li a:hover img {
+    transform: rotate(10deg) scale(1.2);
 }
+
 
 /*#endregion*/
 
@@ -876,30 +903,30 @@ form button:hover {
 
 /*#region SOBRE */
 
-.sobre__banner{
+.sobre__banner {
     height: 700px;
 }
 
-#sobre__banner_img{
+#sobre__banner_img {
     height: 700px;
     position: absolute;
     width: 100%;
 }
 
-#sobre__banner_texto{
+#sobre__banner_texto {
     position: absolute;
     left: 850px;
-    top: 700px;
-    font-size: 5rem;
+    top: 750px;
+    font-size: 4rem;
     font-weight: 600;
     color: white;
 }
 
-.sobre__missao_visao_valores{
+.sobre__missao_visao_valores {
     height: 500px;
 }
 
-.sobre__missao_visao_valores div{
+.sobre__missao_visao_valores div {
     width: 60%;
     display: flex;
     justify-content: space-around;
@@ -908,41 +935,41 @@ form button:hover {
     /* margin-left: 10px; */
 }
 
-.sobre__missao_visao_valores .sobre__container{
+.sobre__missao_visao_valores .sobre__container {
     display: block;
-    }
+}
 
-.sobre__missao_visao_valores .sobre__container h2{
+.sobre__missao_visao_valores .sobre__container h2 {
     font-size: 5rem;
     padding: 20px;
     text-align: center;
 }
 
-.sobre__missao_visao_valores .sobre__container p{
+.sobre__missao_visao_valores .sobre__container p {
     font-size: 1.5rem;
     text-align: center;
     width: 22vw;
 }
 
-.sobre__equipe > div{
+.sobre__equipe>div {
     margin-left: 10em;
     justify-content: center;
     align-items: center;
 }
 
-.sobre__equipe div{
+.sobre__equipe div {
     background: #FFC107;
     width: 80%;
 }
 
-.sobre__equipe h2{
+.sobre__equipe h2 {
     text-align: center;
     font-size: 5rem;
     font-weight: 600;
     padding: 40px;
 }
 
-.sobre__equipe .equipe__box{
+.sobre__equipe .equipe__box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -951,55 +978,66 @@ form button:hover {
     text-align: center;
 }
 
-.sobre__equipe img{
+.sobre__equipe img {
     width: 80%;
     height: auto;
     object-fit: contain;
     max-width: 200px;
 }
 
-.sobre__equipe h3{
+.sobre__equipe h3 {
     font-size: 2rem;
     font-weight: 600;
     margin: 10px 0;
 }
 
-.sobre__equipe p{
+.sobre__equipe p {
     font-size: 1.2rem;
     max-width: 80%;
 }
 
-.sobre__diferenciais_agencia{
-    height: 600px;
-    margin-top: 50px;
+.diferencial_agencia {
+    background-color: #f9f9f9;
+    padding: 60px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
 }
 
-.sobre__diferenciais_agencia h2{
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 600;
+.diferencial_agencia h2 {
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    border-left: 5px solid #1da4f1;
+    padding-left: 15px;
+
 }
 
-.sobre__diferenciais_agencia p{
-    text-align: center;
-    font-size: 1.2rem;
-    width: 100%;
+.diferencial_agencia p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
 }
 
-.sobre__nossa_historia{
+.diferencial_agencia strong {
+    color: #1565C0;
+}
+
+
+.sobre__nossa_historia {
     height: 600px;
     background: #FFC107;
 }
 
-.sobre__nossa_historia h2{
+.sobre__nossa_historia h2 {
     text-align: center;
     font-size: 5rem;
     font-weight: 600;
     padding: 30px;
 }
 
-.sobre__nossa_historia p{
+.sobre__nossa_historia p {
     text-align: justify;
     font-size: 1.5rem;
     width: 90%;
@@ -1024,14 +1062,14 @@ form button:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     /* max-width: 900px;  */
-    margin: auto; 
+    margin: auto;
 }
 
 .site-cliente {
     text-align: center;
-    flex: 1 1 250px; 
+    flex: 1 1 250px;
 }
 
 .site-cliente img {
@@ -1039,15 +1077,15 @@ form button:hover {
     /* max-width: 300px;  */
     /* Define um limite para evitar que a imagem fique muito grande */
     height: auto;
-    border-radius: 10px; 
-    transition: transform 0.3s ease-in-out; 
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .site-cliente img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
-.site-cliente h5{
+.site-cliente h5 {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
@@ -1059,7 +1097,7 @@ form button:hover {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1.2rem;
-    background-color: red; 
+    background-color: red;
     color: white;
     text-decoration: none;
     border-radius: 15px;
@@ -1067,7 +1105,7 @@ form button:hover {
 }
 
 .botao-contato:hover {
-    background-color: #FFC107; 
+    background-color: #FFC107;
 }
 
 
@@ -1075,9 +1113,10 @@ form button:hover {
 
 /*#region SERVIÇOS */
 /* --------------------------------- PÁGINA SERVIÇOS --------------------------------- */
-.textoservico{
+.textoservico {
     margin-left: 50px;
 }
+
 #bg-video {
     position: absolute;
     top: 0;
@@ -1085,11 +1124,12 @@ form button:hover {
     transform: translateX(-50%);
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    z-index: -1; 
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); 
+    object-fit: cover;
+    z-index: -1;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
-.btn-veja-mais1{
+
+.btn-veja-mais1 {
     display: inline-block;
     background-color: #FFC107;
     color: var(--cor-destaque);
@@ -1100,25 +1140,24 @@ form button:hover {
     transition: background-color 0.3s;
     border-color: #efefef;
 }
-.btn-veja-mais1:hover{
+
+.btn-veja-mais1:hover {
     background-color: #ffe175;
 }
 
 .intro {
     height: 650px;
-    position: relative; 
+    position: relative;
 }
-
 
 .text-container {
     position: relative;
     top: 160px;
-    z-index: 1; 
-    padding: 20px; 
-    background-color: rgba(255, 255, 255, 0.7); 
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
 }
-
 
 .text-container h1 {
     color: rgb(0, 0, 0);
@@ -1130,7 +1169,6 @@ form button:hover {
     margin-right: 105px;
 }
 
-
 .text-container p {
     font-size: 32px;
     font-weight: 500;
@@ -1139,7 +1177,6 @@ form button:hover {
     justify-content: center;
     margin-right: 250px;
 }
-
 
 .div-botao {
     margin-left: 361px;
@@ -1156,13 +1193,13 @@ form button:hover {
     color: #000;
 }
 
-
 .container {
     display: flex;
     max-width: 1200px;
     margin: 50px auto;
     flex-wrap: wrap;
 }
+
 .left-box {
     background-color: #FFD700;
     padding: 40px;
@@ -1171,21 +1208,25 @@ form button:hover {
     box-sizing: border-box;
     height: 485px;
 }
+
 .left-box h2 {
     font-size: 39px;
     font-weight: 800;
     margin-top: 30px;
 }
+
 .left-box p {
     margin-top: 30px;
     font-size: 25px;
 }
+
 .right-boxes {
     display: flex;
     width: 70%;
     min-width: 700px;
     flex-wrap: wrap;
 }
+
 .box {
     height: 480px;
     background-color: #111;
@@ -1204,10 +1245,12 @@ form button:hover {
     justify-content: space-between;
     height: 480px;
 }
+
 .box h3 {
     color: #FFD700;
     font-size: 30px;
 }
+
 .box p {
     color: #FFFFFF;
     font-family: "Archivo", Sans-serif;
@@ -1219,6 +1262,7 @@ form button:hover {
     letter-spacing: 0.2px;
     margin-top: 24px;
 }
+
 .button {
     display: inline-block;
     background-color: #FFD700;
@@ -1230,12 +1274,11 @@ form button:hover {
     text-align: center;
     font-weight: bold;
 }
-.elementor-7092 .elementor-element.elementor-element-b8979d2:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, 
-.elementor-7092 .elementor-element.elementor-element-b8979d2 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+
+.elementor-7092 .elementor-element.elementor-element-b8979d2:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-7092 .elementor-element.elementor-element-b8979d2>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000000;
 }
-
-
 
 .process-container {
     text-align: center;
@@ -1291,11 +1334,13 @@ form button:hover {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
 }
-.cor1{
+
+.cor1 {
     background: var(--cor-principal);
     padding: 21px;
     display: block;
@@ -1582,5 +1627,3 @@ form button:hover {
 
 
 /*#endregion*/
-
-

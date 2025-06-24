@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -55,16 +54,8 @@
 
     <main>
         <section>
-            <video src="./assets/img/Banner para site com aviso de estamos em manutenção.mp4"
-                loop
-                width="100%"
-                autoplay
-                muted
-                loop
-                playsinline
-                poster
-                style="pointer-events: none;">
-            </video>
+            <video src="./assets/img/Banner para site com aviso de estamos em manutenção.mp4" loop width="100%" autoplay muted loop
+                playsinline poster style="pointer-events: none;"></video>
             <div class="site">
                 <div class="texto-video">
                     <h2>Front Dev<br>Agência de criação de sites</h2>
@@ -88,8 +79,7 @@
                             Apesar de estarmos começando agora, trazemos uma visão atual e focada nas tendências do mercado digital, oferecendo
                             soluções criativas e tecnológicas para empresas que desejam se destacar online.
                         </p>
-                        <p>Nosso compromisso é criar sites que não apenas representem a sua marca,
-                            mas também entreguem resultados reais, combinando design atrativo, performance e estratégia. Juntos, vamos transformar ideias em projetos digitais de sucesso!</p>
+                        <p>Nosso compromisso é criar sites que não apenas representem a sua marca, mas também entreguem resultados reais, combinando design atrativo, performance e estratégia. Juntos, vamos transformar ideias em projetos digitais de sucesso!</p>
                         <a href="sobre.php" class="btn-veja-mais">Veja Mais</a>
                     </div>
 
@@ -117,7 +107,7 @@
                                 <div class="icone wow animate__animated animate__fadeInDown">
                                     <img src="./assets/img/icone3.png" alt="Ícone 3">
                                 </div>
-                                <p class="wow animate__animated animate__fadeInDown">Seu Sucesso Online Começa Aqui!</p>
+                                <p class="wow animate__animated animate__fadeInDown">Seu Sucesso Online Começa Aqui !</p>
                             </li>
                         </ul>
                     </div>
@@ -143,8 +133,7 @@
                             <h3>2</h3>
                         </div>
                         <h4>Design</h4>
-                        <p>Desenvolvemos layouts modernos e personalizados, focados na experiência do usuário.
-                        </p>
+                        <p>Desenvolvemos layouts modernos e personalizados, focados na experiência do usuário.</p>
                     </div>
 
                     <div>
@@ -152,8 +141,7 @@
                             <h3>3</h3>
                         </div>
                         <h4>Conteúdo</h4>
-                        <p>Estruturamos informações relevantes e otimizadas para atrair e engajar o público.
-                        </p>
+                        <p>Estruturamos informações relevantes e otimizadas para atrair e engajar o público.</p>
                     </div>
 
 
@@ -170,9 +158,7 @@
                             <h3>5</h3>
                         </div>
                         <h4>Entrega</h4>
-                        <p>Revisão final, validações e publicação do seu projeto com acompanhamento dos acessos e do
-                            desempenho.
-                        </p>
+                        <p>Revisão final, validações e publicação do seu projeto com acompanhamento dos acessos e do desempenho.</p>
                     </div>
                 </div>
             </div>
@@ -228,7 +214,7 @@
                         <li>Histórico comprovado de sucesso em projetos e alta retenção de clientes.</li>
                     </ul>
                 </div>
-                <div class="swot-item">
+                <!-- <div class="swot-item">
                     <div class="bola orange">W</div>
                     <h3>Weaknesses (Fraquezas)</h3>
                     <ul>
@@ -237,7 +223,7 @@
                         <li>Recursos financeiros reduzidos para grandes investimentos em marketing.</li>
                         <li>Base de operações ainda concentrada em uma região específica.</li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="swot-item">
                     <div class="bola blue">O</div>
                     <h3>Opportunities (Oportunidades)</h3>
@@ -252,13 +238,12 @@
                     <div class="bola red">T</div>
                     <h3>Threats (Ameaças)</h3>
                     <ul>
-                        <li>Alterações econômicas que podem afetar o orçamento de clientes.</li>
-                        <li>Riscos de obsolescência tecnológica devido ao rápido avanço do mercado.</li>
-                        <li>Mudanças regulatórias que podem impactar a operação do negócio.</li>
-                        <li>Aumento das expectativas do consumidor, exigindo maior agilidade e inovação.</li>
+                        <li>Avanço constante de tecnologias disruptivas exige atualização contínua.</li>
+                        <li>Ambiente regulatório em transformação exige agilidade em conformidade.</li>
+                        <li>Concorrência acirrada com players globais e modelos de negócio inovadores.</li>
+                        <li>Alta demanda por soluções sob medida eleva o padrão de entrega e inovação.</li>
                     </ul>
                 </div>
-            </div>
         </section>
 
         <section class="wow animate__animated animate__fadeInUp">
