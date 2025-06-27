@@ -1,8 +1,8 @@
 <footer class="footer wow animate__animated animate__fadeInUp">
     <div>
-        <div class="logoFooter"><img src="./assets/img/flaticon.png" alt=""></div>
+        <div class="logoFooter"><img src="./assets/img/logo.png" alt="logo"></div>
 
-        <div>
+        <div class="footerLinks">
             <h3>Links rápidos:</h3>
             <ul>
                 <li><a href="index.php">Home</a></li>

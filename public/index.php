@@ -4,19 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content=" FRONT DEV ">
-    <link rel="shortcut icon" href="./assets/img/flaticon.png" type="image/x-icon">
-    <title>FrontDev/agencia-de-criacao-de-sites</title>
+    <meta name="author" content="FRONT DEV">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <title>FrontDev</title>
     <!-- RESET CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
-
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
     <!-- SLICK CSS -->
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/slick-theme.css">
-
     <!--  LITY CSS -->
     <link rel="stylesheet" href="assets/css/lity.min.css">
     <link rel="stylesheet" href="assets/css/estilo.css">
@@ -25,7 +22,11 @@
 <body>
     <header id="topo-fixo">
         <div class="site">
-            <div class="logo" href="index.php">FD</div>
+            <div class="logo">
+                <a href="index.php">
+                    <img src="./assets/img/logo.png" alt="Logo FrontDev">
+                </a>
+            </div>
 
             <nav>
                 <?php
@@ -59,7 +60,7 @@
             <div class="site">
                 <div class="texto-video">
                     <h2>Front Dev<br>Agência de criação de sites</h2>
-                    <p>Tudo que seu negócio precisa!</p>
+                    <p>Tudo que seu negócio precisa !</p>
                 </div>
             </div>
         </section>
@@ -73,7 +74,6 @@
                 <div class="conteudo">
 
                     <div class="coluna-esquerda">
-                        <h3>Sobre Nós</h3>
                         <p>
                             Somos uma agência jovem e inovadora, especializada no desenvolvimento de sites modernos, funcionais e personalizados.
                             Apesar de estarmos começando agora, trazemos uma visão atual e focada nas tendências do mercado digital, oferecendo
@@ -179,7 +179,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="assets/img/pessoa-com-balão.png" alt="Astronauta em uma caixa" />
+                    <img src="assets/img/midiasociais.png" alt="redes" />
                 </div>
             </div>
             <div>
