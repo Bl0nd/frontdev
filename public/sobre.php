@@ -49,9 +49,18 @@
                 </div>
             </div>
         </section>
-
+        <!-- nossa historia -->
+        <section class="diferencial_agencia">
+            <h2>Nossa História</h2>
+            <p>Fundada em 06 de agosto de 2024, no coração de São Miguel Paulista, a Front Dev é uma agência jovem e ousada, especializada em transformar ideias em experiências digitais impactantes.</p>
+            <p>Acreditamos que cada projeto carrega sua própria identidade. Por isso, adotamos uma <strong>abordagem personalizada</strong>, pensada nos objetivos e desafios de cada cliente. Nossa equipe é formada por profissionais criativos, apaixonados por design, desenvolvimento e inovação digital.</p>
+            <p>Mais do que criar sites, buscamos <strong>construir parcerias duradouras</strong>, estratégias de crescimento e colaboração verdadeira. Prezamos pela <strong>transparência e comunicação aberta</strong>, porque sabemos que os melhores resultados surgem do trabalho em conjunto.</p>
+            <p>Nossos diferenciais vão além da estética e funcionalidade. Trabalhamos com <strong>tecnologias sustentáveis</strong>, priorizamos a <strong>acessibilidade digital</strong> e entregamos soluções que impactam positivamente pessoas e marcas.</p>
+            <p>Se você está em busca de uma presença online marcante, moderna e com propósito, a Front Dev é a parceira ideal. Vamos juntos criar algo incrível ?</p>
+        </section>
+        <!-- equipe -->
         <section class="sobre__equipe">
-            <div class="site">
+            <div class="site_equipe">
                 <h2>Equipe</h2>
                 <div class="equipe__box">
                     <img src="assets/img/sobre__foto_191x318_eve.png" alt="foto do integrante da equipe">
@@ -69,15 +78,6 @@
                     <p>Com uma mente criativa alimentada por viagens, momentos de instrospecção em casa e a paixão pela dança, encontro equilibrio entre inspiração e foco. Cada experiência, seja explorando novos lugares ou apreciando a fluidez dos movimentos, contribui para criar projetos digitais inovadores e harmoniosos.</p>
                 </div>
             </div>
-        </section>
-
-        <section class="diferencial_agencia">
-            <h2>Nossa História</h2>
-            <p>Fundada em 06 de agosto de 2024, no coração de São Miguel Paulista, a Front Dev é uma agência jovem e ousada, especializada em transformar ideias em experiências digitais impactantes.</p>
-            <p>Acreditamos que cada projeto carrega sua própria identidade. Por isso, adotamos uma <strong>abordagem personalizada</strong>, pensada nos objetivos e desafios de cada cliente. Nossa equipe é formada por profissionais criativos, apaixonados por design, desenvolvimento e inovação digital.</p>
-            <p>Mais do que criar sites, buscamos <strong>construir parcerias duradouras</strong>, estratégias de crescimento e colaboração verdadeira. Prezamos pela <strong>transparência e comunicação aberta</strong>, porque sabemos que os melhores resultados surgem do trabalho em conjunto.</p>
-            <p>Nossos diferenciais vão além da estética e funcionalidade. Trabalhamos com <strong>tecnologias sustentáveis</strong>, priorizamos a <strong>acessibilidade digital</strong> e entregamos soluções que impactam positivamente pessoas e marcas.</p>
-            <p>Se você está em busca de uma presença online marcante, moderna e com propósito, a Front Dev é a parceira ideal. Vamos juntos criar algo incrível ?</p>
         </section>
 
         <section class="sobre__chamada_para_acao">

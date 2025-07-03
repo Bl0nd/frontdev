@@ -977,99 +977,122 @@ form button:hover {
     width: 22vw;
 }
 
-.sobre__equipe>div {
-    margin-left: 10em;
-    justify-content: center;
-    align-items: center;
-}
-
-.sobre__equipe div {
-    background: #FFC107;
-    width: 80%;
+.sobre__equipe {
+    background-color: #111;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
 }
 
 .sobre__equipe h2 {
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 600;
-    padding: 40px;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #FFC107;
+    text-align: center !important;
 }
 
-.sobre__equipe .equipe__box {
+.site_equipe h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.site_equipe {
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: center;
-    text-align: center;
 }
 
-.sobre__equipe img {
-    width: 80%;
-    height: auto;
-    object-fit: contain;
-    max-width: 200px;
+.equipe__box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #f0c219;
+    border-radius: 30px;
+    padding: 30px 20px;
+    margin: 20px;
+    max-width: 350px;
+    transition: transform 0.3s, border-color 0.3s;
 }
 
-.sobre__equipe h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 10px 0;
+.equipe__box:hover {
+    transform: translateY(-8px);
+    border-color: #00bfff;
 }
 
-.sobre__equipe p {
-    font-size: 1.2rem;
-    max-width: 80%;
+.equipe__box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #FFC107;
+    transition: border-color 0.3s;
 }
+
+.equipe__box:hover img {
+    border-color: #00bfff;
+}
+
+.equipe__box h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #FFC107;
+}
+
+.equipe__box p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+
 
 .diferencial_agencia {
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     padding: 60px 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    position: relative;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
 }
 
 .diferencial_agencia h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    border-left: 5px solid #1da4f1;
-    padding-left: 15px;
+    font-size: 2.8rem;
+    color: #222;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
 
+.diferencial_agencia h2::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #007BFF;
+    margin: 0 auto 20px auto;
+    border-radius: 2px;
 }
 
 .diferencial_agencia p {
-    margin-bottom: 20px;
     font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .diferencial_agencia strong {
-    color: #1565C0;
-}
-
-
-.sobre__nossa_historia {
-    height: 600px;
-    background: #FFC107;
-}
-
-.sobre__nossa_historia h2 {
-    text-align: center;
-    font-size: 5rem;
+    color: #007BFF;
     font-weight: 600;
-    padding: 30px;
 }
 
-.sobre__nossa_historia p {
-    text-align: justify;
-    font-size: 1.5rem;
-    width: 90%;
-    padding: 30px;
-    margin-left: 30px;
-}
+
 
 .sobre__chamada_para_acao {
     text-align: center;
@@ -1156,33 +1179,33 @@ form button:hover {
 }
 
 .btn-veja-mais1 {
-  display: inline-block;
-  background-color: #FFC107;
-  color: black;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  border: none;
-  box-shadow: 0 0 0 transparent;
+    display: inline-block;
+    background-color: #FFC107;
+    color: black;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 0 0 transparent;
 }
 
 .btn-veja-mais1:hover {
-  background-color: #0056b3;
-  color: white;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transform: scale(1.05);
+    background-color: #0056b3;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 
 .btn-veja-mais1 p {
-  margin: 0;
-  color: black;
-  transition: color 0.3s ease;
+    margin: 0;
+    color: black;
+    transition: color 0.3s ease;
 }
 
 .btn-veja-mais1:hover p {
-  color: white;
+    color: white;
 }
 
 .intro {
