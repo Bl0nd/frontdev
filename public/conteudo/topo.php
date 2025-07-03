@@ -1,6 +1,6 @@
  <header id="topo-fixo">
      <div class="site">
-         <div class="logo">FD</div>
+         <div class="logo"><img src="./assets/img/logo.png" alt="logo"></div>
 
          <nav>
              <?php

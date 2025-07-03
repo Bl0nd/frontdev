@@ -187,64 +187,61 @@
             </div>
         </section>
 
-        <section class="carrossel wow animate__animated animate__fadeInUp">
-            <div class="titulo-carrossel">
-                <h3>Tecnologias que trabalhamos</h3>
-            </div>
-            <div class="galeria">
-                <img src="./assets/img/FtHtml.png" alt="html">
-                <img src="./assets/img/css.png" alt="css">
-                <img src="./assets/img/js.png" alt="js">
-                <img src="./assets/img/php.png" alt="php">
-                <img src="./assets/img/sql.png" alt="sql">
+        <section class="swot wow animate__animated animate__fadeInUp">
+            <h2>Análise SWOT</h2>
+
+            <div class="swot-grid">
+                <!-- Linha 1 -->
+                <div class="swot-row">
+                    <div class="swot-box forcas">
+                        <img src="assets/img/forca.png" alt="Ícone Forças">
+                        <div>
+                            <h3>Forças</h3>
+                            <p>
+                                Equipe altamente qualificada e comprometida com resultados excepcionais.<br>
+                                Atendimento personalizado, oferecendo soluções específicas para cada cliente.<br>
+                                Uso de tecnologias modernas e metodologias ágeis para maior eficiência.<br>
+                                Histórico comprovado de sucesso em projetos e alta retenção de clientes
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linha 2 -->
+                <div class="swot-row">
+                    <div class="swot-box oportunidades1">
+                        <img src="assets/img/oportunidades.png" alt="Ícone Oportunidades 1">
+                        <div>
+                            <h3>Oportunidades</h3>
+                            <p>
+                                Expansão da demanda por soluções digitais em diversos setores.<br>
+                                Possibilidade de criação de parcerias estratégicas com empresas inovadoras.<br>
+                                Adaptação a novas tecnologias que aprimoram a experiência do cliente.<br>
+                                Crescimento de programas de apoio a startups e pequenas empresas
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linha 3 -->
+                <div class="swot-row">
+                    <div class="swot-box ameacas1">
+                        <img src="assets/img/ameacas.png" alt="Ícone Ameaças 1">
+                        <div>
+                            <h3>Ameaças</h3>
+                            <p>
+                                Avanço constante de tecnologias disruptivas exige atualização contínua.<br>
+                                Ambiente regulatório em transformação exige agilidade em conformidade.<br>
+                                Concorrência acirrada com players globais e modelos de negócio inovadores.<br>
+                                Alta demanda por soluções sob medida eleva o padrão de entrega e inovação.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <section class="swot wow animate__animated animate__fadeInUp">
-            <h2>Análise SWOT:<br> Nossa Estratégia</h2>
-            <p class="subswot"> É uma ferramenta de análise estratégica usada para entender melhor o ambiente interno e externo de uma organização, projeto ou ideia.</p>
-            <div class="conteudoswot">
-                <div class="swot-item">
-                    <div class="bola yellow">S</div>
-                    <h3>Strengths (Forças)</h3>
-                    <ul>
-                        <li>Equipe altamente qualificada e comprometida com resultados excepcionais.</li>
-                        <li>Atendimento personalizado, oferecendo soluções específicas para cada cliente.</li>
-                        <li>Uso de tecnologias modernas e metodologias ágeis para maior eficiência.</li>
-                        <li>Histórico comprovado de sucesso em projetos e alta retenção de clientes.</li>
-                    </ul>
-                </div>
-                <!-- <div class="swot-item">
-                    <div class="bola orange">W</div>
-                    <h3>Weaknesses (Fraquezas)</h3>
-                    <ul>
-                        <li>Dependência de ferramentas externas para processos críticos.</li>
-                        <li>Reconhecimento limitado da marca em mercados altamente competitivos.</li>
-                        <li>Recursos financeiros reduzidos para grandes investimentos em marketing.</li>
-                        <li>Base de operações ainda concentrada em uma região específica.</li>
-                    </ul>
-                </div> -->
-                <div class="swot-item">
-                    <div class="bola blue">O</div>
-                    <h3>Opportunities (Oportunidades)</h3>
-                    <ul>
-                        <li>Expansão da demanda por soluções digitais em diversos setores.</li>
-                        <li>Possibilidade de criação de parcerias estratégicas com empresas inovadoras.</li>
-                        <li>Adaptação a novas tecnologias que aprimoram a experiência do cliente.</li>
-                        <li>Crescimento de programas de apoio a startups e pequenas empresas.</li>
-                    </ul>
-                </div>
-                <div class="swot-item">
-                    <div class="bola red">T</div>
-                    <h3>Threats (Ameaças)</h3>
-                    <ul>
-                        <li>Avanço constante de tecnologias disruptivas exige atualização contínua.</li>
-                        <li>Ambiente regulatório em transformação exige agilidade em conformidade.</li>
-                        <li>Concorrência acirrada com players globais e modelos de negócio inovadores.</li>
-                        <li>Alta demanda por soluções sob medida eleva o padrão de entrega e inovação.</li>
-                    </ul>
-                </div>
-        </section>
 
         <section class="wow animate__animated animate__fadeInUp">
             <div class="promo">

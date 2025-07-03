@@ -296,7 +296,7 @@ section video {
 }
 
 .metodologia {
-      background-color: rgba(0, 0, 0, 0.1); 
+    background-color: rgba(0, 0, 0, 0.1);
     display: flex;
     padding: 65px;
 }
@@ -393,7 +393,7 @@ section video {
     font-family: "bevan";
     font-weight: bold;
     margin-bottom: 20px;
-        font-size: 2.2em;
+    font-size: 2.2em;
     line-height: 1.2;
 }
 
@@ -435,138 +435,121 @@ section video {
 
 /*#region CARROSSEL*/
 .carrossel {
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-.titulo-carrossel {
+    padding: 40px 20px;
+    border-radius: 20px;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 40px auto;
+    max-width: 1000px;
 }
 
 .titulo-carrossel h3 {
-    font-size: 3em;
-    color: var(--cor-principal);
-    font-weight: bold;
-    font-family: 'Bevan';
-    padding: 30px;
-    text-decoration: underline;
-    margin-top: 55px;
-}
-
-.galeria img {
-    margin: 0 40px;
+    color: #f0c219;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .galeria {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
-    .slick-prev:before,
-    .slick-next:before {
-        font-family: 'slick';
-        font-size: 20px;
-        color: #011826;
-    }
+.galeria img {
+    height: 80px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(100%) brightness(0.9);
+}
 
-    .slick-prev {
-        left: 25px;
-        z-index: 2;
-    }
-
-    .slick-next {
-        right: 25px;
-    }
+.galeria img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%) brightness(1.1);
 }
 
 /*#endregion*/
 
 /*#region SWOT */
 .swot {
-    text-align: center;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 55px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 4rem 2rem;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .swot h2 {
-    font-size: 3em;
-    font-family: 'Bevan';
-    margin-bottom: 5px;
-    color: var(--cor-principal);
-}
-
-.subswot {
-    font-size: 1em;
-    margin-bottom: 30px;
-}
-
-.conteudoswot {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.swot-item {
-    flex: 1;
     text-align: center;
-    padding: 20px;
-    background-color: #efefefc9;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.336);
-}
-
-.swot-item h3 {
-    font-size: 1.5em;
-    margin: 15px 0 10px;
-    font-family: 'Bevan';
-    color: var(--cor-terciaria);
-
-}
-
-.swot-item ul {
-    list-style: disc;
-    margin: 10px 20px;
-    padding: 0;
-    font-size: 0.9em;
-    line-height: 1.5;
-    transition: opacity 0.5s;
-}
-
-.swot-item ul li {
-    margin-bottom: 20px;
-    font-size: 1.13em;
-    font-family: "spectral", bold;
-    color: var(--cor-terciaria);
-}
-
-.bola {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: #f0c219;
     font-weight: bold;
-    color: #fff;
-    margin: 0 auto 10px;
+    margin-bottom: 3rem;
 }
 
-.yellow {
-    background-color: var(--cor-principal);
+.swot-grid {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
 }
 
-.orange {
-    background-color: #f59e42;
+.swot-row {
+    display: flex;
+    justify-content: center;
 }
 
-.blue {
-    background-color: #4287f5;
+.swot-box {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    border: 8px solid;
+    border-image: linear-gradient(to right, #007BFF, #f0c219);
+    border-image-slice: 1;
+    border-radius: 25px;
+    padding: 24px;
+    margin: 16px 0;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.red {
-    background-color: var(--cor-secundaria);
+.swot-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.swot-box>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.swot-box img {
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.swot-box:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.15);
+}
+
+.swot-box h3 {
+    margin-top: 0;
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.swot-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.forcas,
+.oportunidades1,
+.ameacas1 {
+    color: #000;
 }
 
 /*#endregion */
@@ -1173,19 +1156,33 @@ form button:hover {
 }
 
 .btn-veja-mais1 {
-    display: inline-block;
-    background-color: #FFC107;
-    color: var(--cor-destaque);
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    border-color: #efefef;
+  display: inline-block;
+  background-color: #FFC107;
+  color: black;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 0 0 transparent;
 }
 
 .btn-veja-mais1:hover {
-    background-color: #ffe175;
+  background-color: #0056b3;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.btn-veja-mais1 p {
+  margin: 0;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.btn-veja-mais1:hover p {
+  color: white;
 }
 
 .intro {
@@ -1194,12 +1191,13 @@ form button:hover {
 }
 
 .text-container {
-    position: relative;
-    top: 160px;
-    z-index: 1;
-    padding: 20px;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
 }
 
 .text-container h1 {
@@ -1222,9 +1220,9 @@ form button:hover {
 }
 
 .div-botao {
-    margin-left: 361px;
-    margin-top: 50px;
-    max-width: 110px;
+    margin-left: 900px;
+    margin-top: 30px;
+    max-width: 100px;
 }
 
 .div-botao p {
