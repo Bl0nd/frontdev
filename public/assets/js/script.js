@@ -170,8 +170,10 @@ darkModeToggle.addEventListener("change", () => {
 
 // menu hamburguer
 const hamburgerBtn = document.getElementById('hamburger-btn');
-const menuList = document.getElementById('menu-list');
 const hamburgerIcon = document.getElementById('hamburger-icon');
+
+// Pegamos o primeiro <ul> dentro do <nav>
+const menuList = document.querySelector('nav ul');
 
 hamburgerBtn.addEventListener('click', () => {
   menuList.classList.toggle('active');
