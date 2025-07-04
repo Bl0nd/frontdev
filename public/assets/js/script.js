@@ -168,3 +168,17 @@ darkModeToggle.addEventListener("change", () => {
     document.body.classList.toggle("dark-mode", isChecked);
 });
 
+// menu hamburguer
+const hamburgerBtn = document.getElementById('hamburger-btn');
+const menuList = document.getElementById('menu-list');
+const hamburgerIcon = document.getElementById('hamburger-icon');
+
+hamburgerBtn.addEventListener('click', () => {
+  menuList.classList.toggle('active');
+
+  if (menuList.classList.contains('active')) {
+    hamburgerIcon.src = './assets/img/close.png';
+  } else {
+    hamburgerIcon.src = './assets/img/menu.png';
+  }
+});

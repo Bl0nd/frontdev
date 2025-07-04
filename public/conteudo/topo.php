@@ -13,6 +13,10 @@
                 //     var_dump('vazio');
                 // }
                 ?>
+             <button class="hamburger" id="hamburger-btn" aria-label="Abrir menu">
+                 <img src="./assets/img/menu.png" alt="Menu" id="hamburger-icon" />
+             </button>
+
              <ul>
                  <li><a href="index.php" class="<?php echo ($pgAtual == 'index') ? 'ativo' : ''; ?>">Home</a></li>
                  <li><a href="sobre.php" class="<?php echo ($pgAtual == 'sobre') ? 'ativo' : ''; ?>">Sobre</a></li>

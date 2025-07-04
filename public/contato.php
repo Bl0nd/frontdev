@@ -1,36 +1,36 @@
 <?php
- 
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
- 
+
 require 'vedors/email/Exception.php';
 require 'vedors/email/PHPMailer.php';
 require 'vedors/email/SMTP.php';
 require 'admin/conexao.php';
- 
+
 $ok = 0;
 $okDb = 0;
- 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome'])) {
- 
+
     // Pegando os dados do formulário
     $nome  = trim($_POST['nome']);
     $fone  = trim($_POST['fone']);
     $email = trim($_POST['email']);
     $mens  = trim($_POST['mens']);
- 
+
     // Inserção no banco de dados
     try {
         $sql = "INSERT INTO tbl_contato (nome_contato, telefone_contato, email_contato, mensagem_contato, status_contato)
                 VALUES (:nome, :telefone, :email, :mensagem, 'Aguardando')";
- 
+
         $stmt = $conn->prepare($sql);
         $stmt->bindParam(':nome', $nome);
         $stmt->bindParam(':telefone', $fone);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':mensagem', $mens);
- 
+
         if ($stmt->execute()) {
             $okDb = 1;
         } else {
@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome'])) {
     } catch (PDOException $e) {
         die("Erro no banco de dados: " . $e->getMessage());
     }
- 
+
     // Envio de e-mail
     $mail = new PHPMailer(true);
     try {
@@ -50,10 +50,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome'])) {
         $mail->Password   = 'Senac@tipi03';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
- 
+
         $mail->setFrom('tipi03@smpsistema.com.br', 'Front Dev');
         $mail->addAddress('inacioevelyn86@gmail.com');
- 
+
         $mail->isHTML(true);
         $mail->Subject = 'Front Dev - Contato';
         $mail->Body = "
@@ -62,13 +62,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome'])) {
             <strong>Telefone:</strong> $fone <br>
             <strong>Mensagem:</strong> $mens <br>
         ";
- 
+
         $mail->send();
         $ok = 1;
     } catch (Exception $e) {
         $ok = 2;
     }
- 
+
     // Redirecionamento após o envio
     header("Location: contato.php?status=$ok&db=$okDb");
     exit();
@@ -152,54 +152,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome'])) {
             </div>
         </section>
 
-        <section>
+        <section class="mapa">
+            <h3>Estamos Localizados</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.033985270784!2d-46.43194172309075!3d-23.49528535107992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63dd09800149%3A0x4f436ed77615106c!2sAvenida%20Marechal%20Tito%2C%201500%20-%20S%C3%A3o%20Miguel%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1727804163748!5m2!1spt-BR!2sbr"
-                width="100%" height="400px" style="padding-top: 50px;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                width="100%" height="400px"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
-        <footer class="footer">
-            <div>
-                <div class="logoFooter"><img src="./assets/img/flaticon.png" alt=""></div>
-
-                <div>
-                    <h3>Links rápidos:</h3>
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="sobre.php">Sobre</a></li>
-                        <li><a href="servico.php">Serviços</a></li>
-                        <li><a href="contato.php">Contato</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3>Siga-nos em:</h3>
-                    <ul class="social-icons">
-                        <li>
-                            <a href="https://www.instagram.com/frontddev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                <img src="./assets/img/insta-footer.png" alt="Instagram">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://wa.me/5511977823733" target="_blank">
-                                <img src="./assets/img/whats-footer.png" alt="WhatsApp">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://facebook.com" target="_blank">
-                                <img src="./assets/img/face-footer.png" alt="Facebook">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com" target="_blank">
-                                <img src="./assets/img/linkedin-footer.png" alt="LinkedIn">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
     </main>
+
+    <?php require_once('conteudo/footer.php'); ?>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <!-- LITY JS -->
+    <script src="assets/js/lity.min.js"> </script>
+    <script src="assets/js/script.js"></script>
     <script src="dark-mode.js" defer></script>
 </body>
 

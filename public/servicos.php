@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content=" FRONT DEV ">
     <link rel="shortcut icon" href="./assets/img/flaticon.png" type="image/x-icon">
-    <title>Serviços - Nomadz</title>
+    <title>Serviços</title>
     <!-- RESET CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- ANIMATE CSS -->
@@ -19,9 +19,8 @@
     <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
 
-<body>
-    <?php require_once('conteudo/topo.php'); ?>
-
+<body id="dark-mode-toggle">
+    <?php require_once('conteudo/topo.php');  ?>
 
     <section class="intro">
         <!-- Vídeo de fundo -->
@@ -119,7 +118,6 @@
                     <p>Ajustes e entrega</p>
                 </div>
 
-
                 <div class="step"><img src="assets/img/img1.png.png" alt="Ícone Alinhamento">
                     <p>Alinhamento inicial e imersão</p>
                 </div>
@@ -161,7 +159,15 @@
             </svg>
         </div>
 
-        <?php require_once('conteudo/footer.php'); ?>
+
+    <?php require_once('conteudo/footer.php'); ?>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <!-- LITY JS -->
+    <script src="assets/js/lity.min.js"> </script>
+    <script src="assets/js/script.js"></script>
+    <script src="dark-mode.js" defer></script>
 
 </body>
 
