@@ -41,7 +41,6 @@
                 </div>
 
                 <div class="conteudo">
-
                     <div class="coluna-esquerda">
                         <p>
                             Somos uma agência jovem e inovadora, especializada no desenvolvimento de sites modernos, funcionais e personalizados.
@@ -276,7 +275,7 @@
                 </div>
             </div>
         </section>
-        
+
     </main>
 
     <?php require_once('conteudo/footer.php'); ?>

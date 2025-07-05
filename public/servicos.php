@@ -102,35 +102,35 @@
 
         <div class="carousel">
             <div class="carousel-track">
-                <div class="step"><img src="assets/img/img1.png.png" alt="Ícone Alinhamento">
+                <div class="step"><img src="assets/img/img1.png" alt="Ícone Alinhamento">
                     <p>Alinhamento inicial e imersão</p>
                 </div>
-                <div class="step"><img src="assets/img/img2.png.png" alt="Ícone Modelo de conteúdo">
+                <div class="step"><img src="assets/img/img2.png" alt="Ícone Modelo de conteúdo">
                     <p>Modelo de conteúdo e protótipo</p>
                 </div>
-                <div class="step"><img src="assets/img/img3.png.png" alt="Ícone Validação">
+                <div class="step"><img src="assets/img/img3.png" alt="Ícone Validação">
                     <p>Validação junto ao cliente</p>
                 </div>
-                <div class="step"><img src="assets/img/img4.png.png" alt="Ícone Configurações">
+                <div class="step"><img src="assets/img/img4.png" alt="Ícone Configurações">
                     <p>Configurações e desenvolvimento</p>
                 </div>
-                <div class="step"><img src="assets/img/img5png (2).png" alt="Ícone Ajustes">
+                <div class="step"><img src="assets/img/img5.png" alt="Ícone Ajustes">
                     <p>Ajustes e entrega</p>
                 </div>
 
-                <div class="step"><img src="assets/img/img1.png.png" alt="Ícone Alinhamento">
+                <div class="step"><img src="assets/img/img1.png" alt="Ícone Alinhamento">
                     <p>Alinhamento inicial e imersão</p>
                 </div>
-                <div class="step"><img src="assets/img/img2.png.png" alt="Ícone Modelo de conteúdo">
+                <div class="step"><img src="assets/img/img2.png" alt="Ícone Modelo de conteúdo">
                     <p>Modelo de conteúdo e protótipo</p>
                 </div>
-                <div class="step"><img src="assets/img/img3.png.png" alt="Ícone Validação">
+                <div class="step"><img src="assets/img/img3.png" alt="Ícone Validação">
                     <p>Validação junto ao cliente</p>
                 </div>
-                <div class="step"><img src="assets/img/img4.png.png" alt="Ícone Configurações">
+                <div class="step"><img src="assets/img/img4.png" alt="Ícone Configurações">
                     <p>Configurações e desenvolvimento</p>
                 </div>
-                <div class="step"><img src="assets/img/img5png (2).png" alt="Ícone Ajustes">
+                <div class="step"><img src="assets/img/img5.png" alt="Ícone Ajustes">
                     <p>Ajustes e entrega</p>
                 </div>
             </div>

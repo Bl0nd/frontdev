@@ -31,7 +31,7 @@
             <img id="sobre__banner_img" src="assets/img/sobre__foto_banner_1.jpg" alt="foto banner página sobre">
             <h2 id="sobre__banner_texto">Nosso Coworking</h2>
         </section>
-        
+
         <!-- nossa historia -->
         <section class="diferencial_agencia">
             <h2>Nossa História</h2>
@@ -64,41 +64,41 @@
             <div class="site_equipe">
                 <h2>Equipe</h2>
                 <div class="equipe__box">
-                    <img src="assets/img/sobre__foto_191x318_eve.png" alt="foto do integrante da equipe">
-                    <h3>Evelyn</h3>
-                    <p>Sou apaixonado por tecnologia e por tudo que envolve inovação e criatividade. Também amo jogos, que me inspiram a pensar estrategicamente a buscar sempre a melhor solução. Em tudo que faço, me dedico ao máximo para entregar resultados excepcionais, com foco em qualidade e excelência.</p>
+                    <img src="assets/img/equipe_foto1.png" alt="foto do integrante da equipe">
+                    <h3>Fernanda</h3>
+                    <p>Dev com alma de exploradora digital, codifico entre um carinho no gato e um estoque secreto de chocolate. Se tem bug, eu resolvo</p>
                     <div class="social">
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://github.com/Bl0nd" target="_blank">
                             <i class='bx bxl-github'></i></a>
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://www.instagram.com/diasfeeh/" target="_blank">
                             <i class='bx bxl-instagram'></i></a>
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://www.linkedin.com/in/diasfeeh/" target="_blank">
                             <i class='bx bxl-linkedin'></i></a>
                     </div>
                 </div>
                 <div class="equipe__box">
-                    <img src="assets/img/sobre__foto_191x318_caique.png" alt="foto do integrante da equipe">
-                    <h3>Caique</h3>
-                    <p>Minha abordagem estratégica e orientada para o futuro garante que cada decisão seja tomada com base em inovação, eficiência e resultados de longo prazo. Busco constantemente otimizar processos, motivar minha equipe e antecipar tendências do mercado para manter a empresa competitiva e em constante evolução. Minha liderança é guiada pela determinação, planejamento sólido e compromisso com a excelência.</p>
+                    <img src="assets/img/equipe_foto2.png" alt="foto do integrante da equipe">
+                    <h3>Giovani</h3>
+                    <p>Nada mais do que um programador viciado em código, movido a altas doses de cafeína</p>
                     <div class="social">
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://github.com/not15-cpu" target="_blank">
                             <i class='bx bxl-github'></i></a>
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://www.instagram.com/useless.persooonnn/" target="_blank">
                             <i class='bx bxl-instagram'></i></a>
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://www.linkedin.com/in/giovani-henrique-braz-nunes-232007264/" target="_blank">
                             <i class='bx bxl-linkedin'></i></a>
                     </div>
                 </div>
                 <div class="equipe__box">
-                    <img src="assets/img/sobre__foto_191x318_iara.png" alt="foto do integrante da equipe">
+                    <img src="assets/img/equipe_foto3.png" alt="foto do integrante da equipe">
                     <h3>Iara</h3>
                     <p>Com uma mente criativa alimentada por viagens, momentos de instrospecção em casa e a paixão pela dança, encontro equilibrio entre inspiração e foco. Cada experiência, seja explorando novos lugares ou apreciando a fluidez dos movimentos, contribui para criar projetos digitais inovadores e harmoniosos.</p>
                     <div class="social">
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://github.com/IaraFreitas" target="_blank">
                             <i class='bx bxl-github'></i></a>
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://www.instagram.com/if.dev_/" target="_blank">
                             <i class='bx bxl-instagram'></i></a>
-                        <a href="https://github.com/evelyn" target="_blank">
+                        <a href="https://www.linkedin.com/in/iara-freitas-if/" target="_blank">
                             <i class='bx bxl-linkedin'></i></a>
                     </div>
                 </div>
@@ -124,24 +124,22 @@
                 </div>
 
                 <div class="site-cliente">
-                    <a href="https://agenciatipi03.smpsistema.com.br/aluno/evelyn/newcyber/index.html" target="_blank">
-                        <img src="assets/img/sobre__port_foto_newCyber.png" alt="site New Cyber" class="img-site-cliente">
+                    <a href="https://achievo.conexusnet.org/" target="_blank">
+                        <img src="assets/img/sobre__port_achievo.png" alt="site Achievo" class="img-site-cliente">
                     </a>
-                    <h5>New Cyber</h5>
+                    <h5>Achievo</h5>
                 </div>
 
                 <div class="site-cliente">
-                    <a href="https://agenciatipi03.smpsistema.com.br/aluno/evelyn/diabete/public/" target="_blank">
-                        <img src="assets/img/sobre__port_foto_glicoLife.jpg" alt="site New Cyber" class="img-site-cliente">
+                    <a href="https://agenciatipi03.smpsistema.com.br/aluno/fernanda/sistemaescola/public/" target="_blank">
+                        <img src="assets/img/sobre__port_futuredu.png" alt="site Futuredu" class="img-site-cliente">
                     </a>
-                    <h5>GlicoLife</h5>
+                    <h5>Futuredu</h5>
                 </div>
-
-
 
             </div>
 
-            <a href="contato.php" class="botao-contato">Entre em contato!</a>
+            <a href="contato.php" class="botao-contato">Entre em contato !</a>
         </section>
 
 

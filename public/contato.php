@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="FRONT DEV ">
     <link rel="shortcut icon" href="./assets/img/flaticon.png" type="image/x-icon">
-    <title>FrontDev/agencia-de-criacao-de-sites</title>
+    <title>FrontDev - Contato</title>
     <!-- RESET CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
 
