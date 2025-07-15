@@ -131,10 +131,10 @@
                 </div>
 
                 <div class="site-cliente">
-                    <a href="https://agenciatipi03.smpsistema.com.br/aluno/fernanda/sistemaescola/public/" target="_blank">
-                        <img src="assets/img/sobre__port_futuredu.png" alt="site Futuredu" class="img-site-cliente">
+                    <a href="https://agenciatipi03.smpsistema.com.br/aluno/fernanda/studio/" target="_blank">
+                        <img src="assets/img/sobre__port_studio.png" alt="site de tatuagem" class="img-site-cliente">
                     </a>
-                    <h5>Futuredu</h5>
+                    <h5>Studio</h5>
                 </div>
 
             </div>
