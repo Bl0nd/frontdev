@@ -215,14 +215,13 @@ section video {
 
 /*#region HISTÓRIA*/
 .nossa-historia {
-    padding: 50px;
+    padding: 80px 0;
 }
 
 .nossa-historia .site {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    padding: 0 20px;
 }
 
 .titulo {
@@ -234,16 +233,17 @@ section video {
     font-family: "bevan";
 }
 
-.conteudo {
+div.conteudo {
     display: flex;
-    justify-content: space-between;
+    gap: 60px;
     align-items: flex-start;
-    gap: 20px;
     flex-wrap: wrap;
 }
 
 .coluna-esquerda {
-    flex: 1;
+    /* flex: 2; */
+    width: 60%;
+    padding-right: 20px;
 }
 
 .coluna-esquerda h3 {
@@ -255,20 +255,23 @@ section video {
 }
 
 .coluna-esquerda p {
-    line-height: 1.3;
+    font-size: 20px;
+    line-height: 1.7;
     margin-bottom: 30px;
-    font-size: 1.25em;
+    text-align: left;
     font-family: "spectral", medium;
 }
 
 .btn-veja-mais {
     display: inline-block;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
     color: var(--cor-destaque);
-    padding: 10px 20px;
+    padding: 12px 30px;
     text-decoration: none;
     border-radius: 30px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
     transition: background-color 0.3s;
 }
 
@@ -276,14 +279,21 @@ section video {
     background-color: darkred;
 }
 
+.coluna-direita{
+    /* flex: 1; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .predio img {
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: block;
-    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .predio img:hover {
@@ -291,32 +301,34 @@ section video {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
 
-.coluna-direita {
-    flex: 1;
-}
-
 .lista-itens {
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
-.item {
+.lista-itens .item {
     display: flex;
     align-items: center;
-    text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 
-.item .icone img {
-    width: 80px;
-    height: auto;
+.lista-itens .item:last-child {
+    margin-bottom: 0;
 }
 
-.item p {
+.lista-itens .item img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.lista-itens .item p {
     font-size: 1.5em;
-    font-weight: 500;
-    margin-top: 10px;
+    line-height: 1.5;
+    margin: 0;
     font-family: "spectral", medium;
 }
 
@@ -527,35 +539,31 @@ section video {
 .swot h2 {
     text-align: center;
     font-size: 2.5rem;
-    color: #f0c219;
+    /* color: #000; */
     font-weight: bold;
     margin-bottom: 3rem;
 }
 
 .swot-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
-    /* flex-direction: column; */
-    gap: 2rem;
+    gap: 20px;
 }
 
 .swot-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .swot-box {
-    display: flex;
-    gap: 20px;
+    flex: 1;
+    padding: 25px;
     background-color: #fff;
-    border: 8px solid;
-    border-image: linear-gradient(to right, #007BFF, #f0c219);
-    border-image-slice: 1;
     border-radius: 25px;
-    padding: 24px;
-    margin: 16px 0;
-    align-items: center;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .swot-box:hover {
@@ -570,7 +578,10 @@ section video {
 }
 
 .swot-box img {
+    display: block;
+    width: 100px;
     height: 100px;
+    margin: 0 auto 15px auto;
     object-fit: contain;
     transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
@@ -582,15 +593,18 @@ section video {
 
 .swot-box h3 {
     margin-top: 0;
-    font-size: 1.9rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
 }
 
 .swot-box p {
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 1.6;
     margin: 0;
+    padding-left: 15px;
+    text-align: left;
 }
 
 .forcas,
@@ -687,7 +701,7 @@ svg {
 .conteudo-pergunta {
     padding: 20px;
     border-radius: 10px;
-    background-color: var(--cor-fundo, #fff);
+    /* background-color: var(--cor-fundo, #fff); */
     /* Adiciona cor de fundo opcional */
 }
 

@@ -166,9 +166,9 @@
                         <div>
                             <h3>Forças</h3>
                             <p>
-                                Equipe altamente qualificada e comprometida com resultados excepcionais.<br>
-                                Atendimento personalizado, oferecendo soluções específicas para cada cliente.<br>
-                                Uso de tecnologias modernas e metodologias ágeis para maior eficiência.<br>
+                                Equipe altamente qualificada e comprometida com resultados<br>
+                                Atendimento personalizado, oferecendo soluções específicas<br>
+                                Uso de tecnologias modernas e metodologias ágeis<br>
                                 Histórico comprovado de sucesso em projetos e alta retenção de clientes
                             </p>
                         </div>
