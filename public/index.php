@@ -9,6 +9,9 @@
     <title>FrontDev</title>
     <!-- RESET CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- SLICK CSS -->
@@ -28,57 +31,53 @@
                 playsinline poster style="pointer-events: none;"></video>
             <div class="site">
                 <div class="texto-video">
-                    <h2>Front Dev<br>Agência de criação de sites</h2>
+                    <h2>Front Dev</h2>
+                    <h3>Agência de criação de sites</h3>
                     <p>Tudo que seu negócio precisa !</p>
                 </div>
             </div>
         </section>
 
         <section class="nossa-historia wow animate__animated animate__fadeInUp">
-            <div class="site">
-                <div>
-                    <h3 class="titulo">Nossa História</h3>
+            <h3 class="titulo">Nossa História</h3>
+            <div class="conteudo">
+                <div class="coluna-esquerda">
+                    <p>
+                        Somos uma agência jovem e inovadora, especializada no desenvolvimento de sites modernos, funcionais e personalizados.
+                        Apesar de estarmos começando agora, trazemos uma visão atual e focada nas tendências do mercado digital, oferecendo
+                        soluções criativas e tecnológicas para empresas que desejam se destacar online.
+                    </p>
+                    <p>Nosso compromisso é criar sites que não apenas representem a sua marca, mas também entreguem resultados reais, combinando design atrativo, performance e estratégia. Juntos, vamos transformar ideias em projetos digitais de sucesso!</p>
+                    <a href="sobre.php" class="btn-veja-mais">Veja Mais</a>
                 </div>
 
-                <div class="conteudo">
-                    <div class="coluna-esquerda">
-                        <p>
-                            Somos uma agência jovem e inovadora, especializada no desenvolvimento de sites modernos, funcionais e personalizados.
-                            Apesar de estarmos começando agora, trazemos uma visão atual e focada nas tendências do mercado digital, oferecendo
-                            soluções criativas e tecnológicas para empresas que desejam se destacar online.
-                        </p>
-                        <p>Nosso compromisso é criar sites que não apenas representem a sua marca, mas também entreguem resultados reais, combinando design atrativo, performance e estratégia. Juntos, vamos transformar ideias em projetos digitais de sucesso!</p>
-                        <a href="sobre.php" class="btn-veja-mais">Veja Mais</a>
-                    </div>
+                <div class="predio">
+                    <img src="./assets/img/predio.png" alt="nossa-historia">
+                </div>
 
-                    <div class="predio">
-                        <img src="./assets/img/predio.png" alt="nossa-historia">
-                    </div>
+                <div class="coluna-direita">
+                    <ul class="lista-itens">
+                        <li class="item">
+                            <div class="icone wow animate__animated animate__fadeInDown">
+                                <img src="./assets/img/icone1.png" alt="Ícone 1">
+                            </div>
+                            <p class="wow animate__animated animate__fadeInDown">Transformamos Ideias em Experiências Digitais.</p>
+                        </li>
 
-                    <div class="coluna-direita">
-                        <ul class="lista-itens">
-                            <li class="item">
-                                <div class="icone wow animate__animated animate__fadeInDown">
-                                    <img src="./assets/img/icone1.png" alt="Ícone 1">
-                                </div>
-                                <p class="wow animate__animated animate__fadeInDown">Transformamos Ideias em Experiências Digitais.</p>
-                            </li>
+                        <li class="item">
+                            <div class="icone wow animate__animated animate__fadeInDown">
+                                <img src="./assets/img/icone2.png" alt="Ícone 2">
+                            </div>
+                            <p class="wow animate__animated animate__fadeInDown">Inovação de Quem Começa com Foco no Futuro.</p>
+                        </li>
 
-                            <li class="item">
-                                <div class="icone wow animate__animated animate__fadeInDown">
-                                    <img src="./assets/img/icone2.png" alt="Ícone 2">
-                                </div>
-                                <p class="wow animate__animated animate__fadeInDown">Inovação de Quem Começa com Foco no Futuro.</p>
-                            </li>
-
-                            <li class="item">
-                                <div class="icone wow animate__animated animate__fadeInDown">
-                                    <img src="./assets/img/icone3.png" alt="Ícone 3">
-                                </div>
-                                <p class="wow animate__animated animate__fadeInDown">Seu Sucesso Online Começa Aqui !</p>
-                            </li>
-                        </ul>
-                    </div>
+                        <li class="item">
+                            <div class="icone wow animate__animated animate__fadeInDown">
+                                <img src="./assets/img/icone3.png" alt="Ícone 3">
+                            </div>
+                            <p class="wow animate__animated animate__fadeInDown">Seu Sucesso Online Começa Aqui !</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -140,11 +139,6 @@
                     <p class="descri">
                         Nossos sites são desenvolvidos para que você tenha autonomia em gerenciar seu próprio conteúdo.<br>Através de um painel administrativo você terá liberdade para adicionar textos, imagens, vídeos e até mesmo criar páginas adicionais. No final do desenvolvimento do seu site você receberá um login e senha e poderá alimentá-lo com:
                     </p>
-                    <div class="FVT">
-                        <div class="iconFVT">📷 Fotos</div>
-                        <div class="iconFVT">🎥 Vídeos</div>
-                        <div class="iconFVT">📝 Textos</div>
-                    </div>
                 </div>
                 <div>
                     <img src="assets/img/midiasociais.png" alt="redes" />
@@ -225,7 +219,7 @@
                     </p>
                     <div>
                         <a href="contato.php">Mandar Email</a>
-                        <a href="#servicos">Conferir nossos Serviços</a>
+                        <a href="servicos.php">Conferir nossos Serviços</a>
                     </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

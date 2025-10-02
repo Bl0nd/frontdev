@@ -9,6 +9,9 @@
     <title>Serviços</title>
     <!-- RESET CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- SLICK CSS -->
@@ -160,14 +163,14 @@
         </div>
 
 
-    <?php require_once('conteudo/footer.php'); ?>
+        <?php require_once('conteudo/footer.php'); ?>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <!-- LITY JS -->
-    <script src="assets/js/lity.min.js"> </script>
-    <script src="assets/js/script.js"></script>
-    <script src="dark-mode.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <!-- LITY JS -->
+        <script src="assets/js/lity.min.js"> </script>
+        <script src="assets/js/script.js"></script>
+        <script src="dark-mode.js" defer></script>
 
 </body>
 
