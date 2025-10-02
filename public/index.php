@@ -33,7 +33,11 @@
                 <div class="texto-video">
                     <h2>Front Dev</h2>
                     <h3>Agência de criação de sites</h3>
-                    <p>Tudo que seu negócio precisa !</p>
+                    <p>⭐ Criação de Sites Profissionais é a nossa missão</p>
+                    <div>
+                        <a href="contato.php">Faça seu Orçamento</a>
+                        <a href="servicos.php">Descubra como podemos te ajudar</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -82,70 +86,24 @@
             </div>
         </section>
 
-        <section class="metodologia wow animate__animated animate__fadeInUp">
-            <div class="site">
-                <h2>Metodologia</h2>
-                <div class="caixamt">
-
-                    <div>
-                        <div class="borda">
-                            <h3>1</h3>
-                        </div>
-                        <h4>Planejamento</h4>
-                        <p> Entendemos suas necessidades, definimos objetivos e traçamos a melhor estratégia.</p>
-                    </div>
-
-                    <div>
-                        <div class="borda">
-                            <h3>2</h3>
-                        </div>
-                        <h4>Design</h4>
-                        <p>Desenvolvemos layouts modernos e personalizados, focados na experiência do usuário.</p>
-                    </div>
-
-                    <div>
-                        <div class="borda">
-                            <h3>3</h3>
-                        </div>
-                        <h4>Conteúdo</h4>
-                        <p>Estruturamos informações relevantes e otimizadas para atrair e engajar o público.</p>
-                    </div>
-
-
-                    <div>
-                        <div class="borda">
-                            <h3>4</h3>
-                        </div>
-                        <h4>Desenvolvimento</h4>
-                        <p>A partir do design aprovado, transformamos o projeto em um site totalmente funcional, rápido e responsivo.</p>
-                    </div>
-
-                    <div>
-                        <div class="borda">
-                            <h3>5</h3>
-                        </div>
-                        <h4>Entrega</h4>
-                        <p>Revisão final, validações e publicação do seu projeto com acompanhamento dos acessos e do desempenho.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="balao wow animate__animated animate__fadeInUp">
             <div class="site">
                 <div class="textoConteudo">
                     <p class="tagline">EMPRESA DE DESENVOLVIMENTO WEB</p>
                     <h3>DESENVOLVENDO SUA PRESENÇA ONLINE</h3>
                     <p class="descri">
-                        Nossos sites são desenvolvidos para que você tenha autonomia em gerenciar seu próprio conteúdo.<br>Através de um painel administrativo você terá liberdade para adicionar textos, imagens, vídeos e até mesmo criar páginas adicionais. No final do desenvolvimento do seu site você receberá um login e senha e poderá alimentá-lo com:
-                    </p>
+                        Nós construímos sites para que você tenha total facilidade na rotina de atualização de conteúdo, sem precisar de nenhum conhecimento em programação.
+
+                        Seu site inclui um Painel Administrativo intuitivo que permite que você gerencie seu próprio material com a simplicidade de usar um editor de texto. Você terá autonomia para atualizar textos, trocar imagens e inserir vídeos.
+
+                        Para a estrutura fundamental do seu site (como novas seções, páginas complexas ou ajustes no design), nossa equipe estará sempre disponível. Você terá suas credenciais de acesso para alimentar seu conteúdo </p>
                 </div>
                 <div>
                     <img src="assets/img/midiasociais.png" alt="redes" />
                 </div>
             </div>
             <div>
-                <p><span>⭐ Criação de Sites Profissionais é a nossa missão.</span></p>
+
             </div>
         </section>
 
@@ -217,10 +175,6 @@
                         Desenvolvemos sites modernos e responsivos, com<br>nossa grande experiência vamos
                         desenvolver o seu<br>projeto do início ao final, rápido, bonito e<br>principalmente, lucrativo.
                     </p>
-                    <div>
-                        <a href="contato.php">Mandar Email</a>
-                        <a href="servicos.php">Conferir nossos Serviços</a>
-                    </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                     <path fill="#f0c219" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,181.3C320,181,400,139,480,149.3C560,160,640,224,720,208C800,192,880,96,960,90.7C1040,85,1120,171,1200,202.7C1280,235,1360,213,1400,202.7L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
