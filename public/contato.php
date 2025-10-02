@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email   = isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '';
     $fone    = isset($_POST['fone']) ? htmlspecialchars($_POST['fone']) : '';
     $mens    = isset($_POST['mens']) ? htmlspecialchars($_POST['mens']) : '';
-    $empresa = isset($_POST['empresa']) ? htmlspecialchars($_POST['empresa']) : ''; // Captura campo opcional
+    $empresa = isset($_POST['empresa']) ? htmlspecialchars($_POST['empresa']) : '';
 
     // Envio de e-mail
     $mail = new PHPMailer(true);
