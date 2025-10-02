@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="predio">
-                    <img src="./assets/img/predio.png" alt="nossa-historia">
+                    <img src="./assets/img/predio1.png" alt="nossa-historia">
                 </div>
 
                 <div class="coluna-direita">
