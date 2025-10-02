@@ -31,7 +31,6 @@
     <main>
         <section class="sobre__banner">
             <img id="sobre__banner_img" src="assets/img/sobre__foto_banner_1.jpg" alt="foto banner página sobre">
-            <h2 id="sobre__banner_texto">Nosso Coworking</h2>
         </section>
 
         <!-- nossa historia -->
@@ -116,13 +115,6 @@
                         <img src="assets//img/sobre__port_foto_ideiaTech.png" alt="site Ideia Tech 360" class="img-site-cliente">
                     </a>
                     <h5>Ideia Tech 360</h5>
-                </div>
-
-                <div class="site-cliente">
-                    <a href="https://agenciatipi03.smpsistema.com.br/aluno/iara/frontdev/public/" target="_blank">
-                        <img src="assets/img/sobre__port_foto_frontDev.png" alt="site Agência Front Dev (V1)" class="img-site-cliente">
-                    </a>
-                    <h5>Agência Front Dev (V1)</h5>
                 </div>
 
                 <div class="site-cliente">

@@ -5,7 +5,16 @@
     --cor-principal: #f0c219;
     --cor-secundaria: #e60b04;
     --cor-terciaria: #000;
+    --cor-quaternaria: #007BFF;
     --cor-destaque: #ffff;
+}
+
+h2 {
+    font-family: 'Bevan';
+}
+
+p, h4, h5 {
+    font-family: 'Roboto', sans-serif;
 }
 
 /*#region CONFIG*/
@@ -273,8 +282,8 @@ div.conteudo {
 
 .btn-veja-mais {
     display: inline-block;
-    background-color: var(--cor-principal, #F0C219);
-    color: var(--cor-terciaria);
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-destaque);
     padding: 14px 35px;
     text-decoration: none;
     border-radius: 20px;
@@ -287,7 +296,7 @@ div.conteudo {
 }
 
 .btn-veja-mais:hover {
-    background-color: #E0B209;
+    background-color: var(--cor-principal);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
 }
@@ -637,7 +646,7 @@ svg {
 
 .promo a {
     padding: 0.8em 1.8em;
-    background-color: #000;
+    background-color: var(--cor-terciaria);
     color: #fff;
     border-radius: 50px;
     text-decoration: none;
@@ -654,8 +663,8 @@ svg {
 }
 
 .promo a:hover {
-    background-color: #000;
-    color: #f0c219;
+    background-color: var(--cor-quaternaria);
+    color:var(--cor-destaque);
     transform: scale(1.05);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
 }
@@ -718,7 +727,7 @@ details[open]>div {
 
 details summary {
     background: var(--cor-principal);
-    color:var(--cor-terciaria);
+    color: var(--cor-terciaria);
     font-weight: 600;
     font-size: 1.25em;
     padding: 18px 25px;
@@ -1016,7 +1025,6 @@ form button:hover {
 /*#endregion*/
 
 /*#region SOBRE */
-
 .sobre__banner {
     height: 700px;
 }
@@ -1044,11 +1052,12 @@ form button:hover {
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     position: relative;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #222;
 }
 
 .diferencial_agencia h2 {
+    font-family: 'Bevan';
     font-size: 2.8rem;
     color: #222;
     text-align: center;
@@ -1061,7 +1070,7 @@ form button:hover {
     display: block;
     width: 50px;
     height: 4px;
-    background-color: #007BFF;
+    background-color:var(--cor-quaternaria);
     margin: 0 auto 20px auto;
     border-radius: 2px;
 }
@@ -1071,12 +1080,14 @@ form button:hover {
     line-height: 1.8;
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: var(--cor-terciaria);
+    font-family: 'Roboto', sans-serif;
 }
 
 .diferencial_agencia strong {
     color: #007BFF;
     font-weight: 600;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sobre__missao_visao_valores {
@@ -1087,7 +1098,7 @@ form button:hover {
     gap: 40px;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sobre__container {
@@ -1105,6 +1116,7 @@ form button:hover {
 }
 
 .sobre__container h2 {
+    font-family: 'Bevan';
     font-size: 2.2rem;
     color: #007BFF;
     margin-bottom: 20px;
@@ -1125,7 +1137,7 @@ form button:hover {
 }
 
 .sobre__equipe h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 40px;
     color: #FFC107;
     text-align: center !important;
@@ -1209,7 +1221,7 @@ form button:hover {
 
 .sobre__chamada_para_acao h2 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 600;
     padding: 30px;
 }
