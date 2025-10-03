@@ -108,52 +108,62 @@
 
         <section class="metodologia wow animate__animated animate__fadeInUp">
 
-        <h2>Metodologia</h2>
-        <div class="caixamt">
+            <h2>Metodologia</h2>
+            <div class="caixamt">
 
-            <div>
-                <div class="borda">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M496 48a16 16 0 0 1 16 16v400a16 16 0 0 1-16 16H16a16 16 0 0 1-16-16V64a16 16 0 0 1 16-16h480zm-16 32H32v384h464V80zM336 272V192h-48v80h-64v128h176V272h-64zM112 304h48v96h-48v-96z"/></svg>
+                <div>
+                    <div class="borda">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M496 48a16 16 0 0 1 16 16v400a16 16 0 0 1-16 16H16a16 16 0 0 1-16-16V64a16 16 0 0 1 16-16h480zm-16 32H32v384h464V80zM336 272V192h-48v80h-64v128h176V272h-64zM112 304h48v96h-48v-96z" />
+                        </svg>
+                    </div>
+                    <h4>Planejamento</h4>
+                    <p> Entendemos suas necessidades, definimos objetivos e traçamos a melhor estratégia.</p>
                 </div>
-                <h4>Planejamento</h4>
-                <p> Entendemos suas necessidades, definimos objetivos e traçamos a melhor estratégia.</p>
+
+                <div>
+                    <div class="borda">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240V480H176c-17.7 0-32 14.3-32 32s14.3 32 32 32H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H336V416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zm64 96H448c8.8 0 16 7.2 16 16V288c0 8.8-7.2 16-16 16H128c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z" />
+                        </svg>
+                    </div>
+                    <h4>Design</h4>
+                    <p>Desenvolvemos layouts modernos e personalizados, focados na experiência do usuário.</p>
+                </div>
+
+                <div>
+                    <div class="borda">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M416 208H272V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v144H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448c0 17.7 14.3 32 32 32s32-14.3 32-32V272H416c17.7 0 32-14.3 32-32s-14.3-32-32-32z" />
+                        </svg>
+                    </div>
+                    <h4>Conteúdo</h4>
+                    <p>Estruturamos informações relevantes e otimizadas para atrair e engajar o público.</p>
+                </div>
+
+
+                <div>
+                    <div class="borda">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M392 240H248c-13.3 0-24 10.7-24 24s10.7 24 24 24h144c13.3 0 24-10.7 24-24s-10.7-24-24-24zM616 160h-56.7c-10.4-38.3-24.1-71.8-41.7-99.7C495.4 15.2 443.9 0 384 0H256c-59.9 0-111.4 15.2-133.6 60.3-17.6 27.9-31.3 61.4-41.7 99.7H24c-13.3 0-24 10.7-24 24v256c0 13.3 10.7 24 24 24h56.7c10.4 38.3 24.1 71.8 41.7 99.7C144.6 496.8 196.1 512 256 512h128c59.9 0 111.4-15.2 133.6-60.3 17.6-27.9 31.3-61.4 41.7-99.7H616c13.3 0 24-10.7 24-24V184c0-13.3-10.7-24-24-24zM320 408c-57.2 0-109.8-19.6-141.7-56.3-27.2-30.8-39.7-72.1-40.3-113.7h364c-.6 41.6-13.1 82.9-40.3 113.7-31.9 36.7-84.5 56.3-141.7 56.3z" />
+                        </svg>
+                    </div>
+                    <h4>Desenvolvimento</h4>
+                    <p>A partir do design aprovado, transformamos o projeto em um site totalmente funcional, rápido e responsivo.</p>
+                </div>
+
+                <div>
+                    <div class="borda">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M102.3 35.3c5.4-19.2 23.3-32.3 43.1-32.3H366.6c19.8 0 37.7 13.1 43.1 32.3L469 192H432V176c0-8.8-7.2-16-16-16H96c-8.8 0-16 7.2-16 16v16H43.1L102.3 35.3zM80 208v144H56c-13.3 0-24 10.7-24 24s10.7 24 24 24h24v16c0 8.8 7.2 16 16 16H392c8.8 0 16-7.2 16-16v-16h24c13.3 0 24-10.7 24-24s-10.7-24-24-24h-24V208H80zM176 256h160c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16s7.2 16 16 16z" />
+                        </svg>
+                    </div>
+                    <h4>Entrega</h4>
+                    <p>Revisão final, validações e publicação do seu projeto com acompanhamento dos acessos e do desempenho.</p>
+                </div>
             </div>
 
-            <div>
-                <div class="borda">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240V480H176c-17.7 0-32 14.3-32 32s14.3 32 32 32H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H336V416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zm64 96H448c8.8 0 16 7.2 16 16V288c0 8.8-7.2 16-16 16H128c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/></svg>
-                </div>
-                <h4>Design</h4>
-                <p>Desenvolvemos layouts modernos e personalizados, focados na experiência do usuário.</p>
-            </div>
-
-            <div>
-                <div class="borda">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H272V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v144H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448c0 17.7 14.3 32 32 32s32-14.3 32-32V272H416c17.7 0 32-14.3 32-32s-14.3-32-32-32z"/></svg>
-                </div>
-                <h4>Conteúdo</h4>
-                <p>Estruturamos informações relevantes e otimizadas para atrair e engajar o público.</p>
-            </div>
-
-
-            <div>
-                <div class="borda">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M392 240H248c-13.3 0-24 10.7-24 24s10.7 24 24 24h144c13.3 0 24-10.7 24-24s-10.7-24-24-24zM616 160h-56.7c-10.4-38.3-24.1-71.8-41.7-99.7C495.4 15.2 443.9 0 384 0H256c-59.9 0-111.4 15.2-133.6 60.3-17.6 27.9-31.3 61.4-41.7 99.7H24c-13.3 0-24 10.7-24 24v256c0 13.3 10.7 24 24 24h56.7c10.4 38.3 24.1 71.8 41.7 99.7C144.6 496.8 196.1 512 256 512h128c59.9 0 111.4-15.2 133.6-60.3 17.6-27.9 31.3-61.4 41.7-99.7H616c13.3 0 24-10.7 24-24V184c0-13.3-10.7-24-24-24zM320 408c-57.2 0-109.8-19.6-141.7-56.3-27.2-30.8-39.7-72.1-40.3-113.7h364c-.6 41.6-13.1 82.9-40.3 113.7-31.9 36.7-84.5 56.3-141.7 56.3z"/></svg>
-                </div>
-                <h4>Desenvolvimento</h4>
-                <p>A partir do design aprovado, transformamos o projeto em um site totalmente funcional, rápido e responsivo.</p>
-            </div>
-
-            <div>
-                <div class="borda">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M102.3 35.3c5.4-19.2 23.3-32.3 43.1-32.3H366.6c19.8 0 37.7 13.1 43.1 32.3L469 192H432V176c0-8.8-7.2-16-16-16H96c-8.8 0-16 7.2-16 16v16H43.1L102.3 35.3zM80 208v144H56c-13.3 0-24 10.7-24 24s10.7 24 24 24h24v16c0 8.8 7.2 16 16 16H392c8.8 0 16-7.2 16-16v-16h24c13.3 0 24-10.7 24-24s-10.7-24-24-24h-24V208H80zM176 256h160c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16s7.2 16 16 16z"/></svg>
-                </div>
-                <h4>Entrega</h4>
-                <p>Revisão final, validações e publicação do seu projeto com acompanhamento dos acessos e do desempenho.</p>
-            </div>
-        </div>
-  
-</section>
+        </section>
     </main>
 
     <?php require_once('conteudo/footer.php'); ?>

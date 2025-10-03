@@ -8,6 +8,7 @@
     --cor-terciaria: #000;
     --cor-quaternaria: #007BFF;
     --cor-destaque: #ffff;
+    --destaque-neon: #00ffff; 
 }
 
 h2,
@@ -356,70 +357,91 @@ div.conteudo {
 
 /*#region METODOLOGIA*/
 .metodologia {
-    padding: 60px 0;
-    text-align: center;
-    background-color: var(--cor-destaque);
+    /* background-color: var(--fundo-escuro); */
+    color: var(--cor-terciaria);
+    padding: 80px 5%;
+    --animate-duration: 1.5s;
 }
 
 .metodologia h2 {
-    font-size: 2.5em;
-    margin-bottom: 50px;
-    font-weight: 900;
-    color: var(--cor-terciaria);
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2); 
 }
 
 .caixamt {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: stretch; 
+    position: relative; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    column-gap: 15px;
 }
 
-.caixamt>div {
-    width: calc((100% - (4 * 20px)) / 5);
-    padding: 30px 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+.caixamt > div {
+    width: 15%; 
+    /* height: 100%;  */
+    padding: 30px 15px;
+    margin: 20px 0;
+    background-color: rgba(0,0, 0, 0.7); 
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 12px;
     text-align: center;
-    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.caixamt>div:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+.caixamt > div:hover {
+    transform: translateY(-10px); 
+    background-color: rgba(31, 31, 58, 0.8);
+    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2), 0 0 5px rgba(0, 255, 255, 0.5);
 }
 
 .borda {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
     border-radius: 50%;
-    background-color: var(--cor-principal);
-    color:var(--cor-terciaria);
-    font-size: 1.5em;
-    margin: 0 auto 15px;
+    background-color:var(--cor-quaternaria) ;
+    box-shadow: var(--destaque-neon);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden; 
 }
 
 .borda svg {
-    fill: var(--cor-terciaria);
-    width: 24px;
-    height: 24px;
+    width: 35px;
+    height: 35px;
+    fill:var(--cor-terciaria); 
+    z-index: 2;
 }
 
 .caixamt h4 {
-    font-size: 1.25em;
-    font-weight: 700;
-    color: var(--cor-principal);
+    color: var(--cor-destaque);
+    font-size: 1.15rem;
+    font-weight: 600;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .caixamt p {
-    font-size: 0.95em;
-    color: var(--cor-terciaria);
-    line-height: 1.4;
+    color: var(--cor-destaque); 
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center; 
 }
 
 /*#endregion*/
@@ -1127,7 +1149,6 @@ form button:hover {
 }
 
 .sobre__equipe h2 {
-    font-size: 3rem;
     margin-bottom: 40px;
     color: #FFC107;
     text-align: center !important;
@@ -1135,7 +1156,7 @@ form button:hover {
 
 .site_equipe h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 40px;
     width: 100%;
 }
