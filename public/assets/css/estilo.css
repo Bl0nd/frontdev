@@ -2107,16 +2107,43 @@ form button:hover {
     }
 
     main .texto-video h2 {
-        font-size: 1.9em;
+        font-size: 1.2em;
+    }
+
+    .texto-video h3 {
+        font-size: 1rem;
     }
 
     main .texto-video p {
         font-size: 1em;
     }
 
+    .btnIndex {
+        display: none;
+    }
+
     video {
         width: 100%;
         height: auto;
+    }
+
+    /* nossa historia */
+    .titulo {
+        font-size: 2em;
+        margin-bottom: 10px;
+        padding-right: 180px;
+    }
+
+    .coluna-esquerda p {
+        width: 70%;
+    }
+
+    .btn-veja-mais {
+        margin-right: 180px;
+    }
+
+    .lista-itens {
+        padding-left: 80px;
     }
 
     /* sobre */
