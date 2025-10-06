@@ -23,10 +23,10 @@
                  <li><a href="servicos.php" class="<?php echo ($pgAtual == 'servicos') ? 'ativo' : ''; ?>">Serviços</a></li>
                  <li><a href="contato.php" class="<?php echo ($pgAtual == 'contato') ? 'ativo' : ''; ?>">Contato</a></li>
              </ul>
-             <label class="theme-switch">
+             <!-- <label class="theme-switch">
                  <input type="checkbox" id="dark-mode-toggle" class="theme-checkbox">
                  <span class="slider"></span>
-             </label>
+             </label> -->
          </nav>
      </div>
  </header>

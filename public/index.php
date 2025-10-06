@@ -27,14 +27,13 @@
 
     <main>
         <section>
-            <video src="./assets/img/Banner para site com aviso de estamos em manutenção.mp4" loop width="100%" autoplay muted loop
-                playsinline poster style="pointer-events: none;"></video>
+            <video src="./assets/img/Banner para site com aviso de estamos em manutenção.mp4" loop width="100%" autoplay muted loop playsinline poster style="pointer-events: none;"></video>
             <div class="site">
                 <div class="texto-video">
                     <h2>Front Dev</h2>
                     <h3>Agência de criação de sites</h3>
                     <p>⭐ Criação de Sites Profissionais é a nossa missão</p>
-                    <div>
+                    <div class="btnIndex">
                         <a href="contato.php">Faça seu Orçamento</a>
                         <a href="servicos.php">Descubra como podemos te ajudar</a>
                     </div>
@@ -43,8 +42,8 @@
         </section>
 
         <section class="nossa-historia wow animate__animated animate__fadeInUp">
-            <h3 class="titulo">Nossa História</h3>
             <div class="conteudo">
+                <h3 class="titulo">Nossa História</h3>
                 <div class="coluna-esquerda">
                     <p>
                         Somos uma agência jovem e inovadora, especializada no desenvolvimento de sites modernos, funcionais e personalizados.
@@ -98,7 +97,7 @@
 
                         Para a estrutura fundamental do seu site (como novas seções, páginas complexas ou ajustes no design), nossa equipe estará sempre disponível. Você terá suas credenciais de acesso para alimentar seu conteúdo </p>
                 </div>
-                <div>
+                <div class="balao">
                     <img src="assets/img/midiasociais.png" alt="redes" />
                 </div>
             </div>

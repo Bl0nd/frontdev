@@ -237,6 +237,50 @@ section video {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
+.btnIndex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.btnIndex a {
+    display: inline-block;
+    padding: 14px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnIndex a:first-child {
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-destaque);
+}
+
+.btnIndex a:first-child:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-terciaria);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnIndex a:last-child {
+    background-color: var(--cor-principal);
+    color: var(--cor-terciaria);
+}
+
+.btnIndex a:last-child:hover {
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-destaque);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 /*#endregion*/
 
 /*#region HISTÓRIA*/
@@ -395,7 +439,7 @@ div.conteudo {
     line-height: 60px;
     border-radius: 50%;
     background-color: var(--cor-principal);
-    color:var(--cor-terciaria);
+    color: var(--cor-terciaria);
     font-size: 1.5em;
     margin: 0 auto 15px;
     display: flex;
@@ -464,6 +508,23 @@ div.conteudo {
 .balao img {
     max-width: 100%;
     /* height: 95%; */
+    display: block;
+    animation: flutuar 3s ease-in-out infinite;
+}
+
+/* Animação de subida e descida */
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .balao span {
@@ -1536,7 +1597,6 @@ form button:hover {
 
     /* HEADER */
     header nav ul {
-
         align-items: center;
         gap: 0.5rem;
     }
@@ -1545,12 +1605,16 @@ form button:hover {
         margin-left: 15%;
     }
 
+    .logo img {
+        height: 100px;
+    }
+
     nav {
-        padding-left: 115px;
+        padding-left: 70px;
     }
 
     header nav ul li a {
-        font-size: 1.5em;
+        font-size: 1.4em;
         margin: 6px;
     }
 
@@ -1561,8 +1625,16 @@ form button:hover {
     }
 
     .texto-video h2 {
-        font-size: 3em;
+        font-size: 2em;
         margin: 0;
+    }
+
+    .texto-video h3 {
+        font-size: 1.4rem;
+    }
+
+    .texto-video p {
+        display: none;
     }
 
     /* NOSSA HISTORIA */
@@ -1570,16 +1642,50 @@ form button:hover {
         display: flex;
     }
 
-    .btn-veja-mais {
-        padding: 20px 40px;
+    .predio {
+        display: none;
     }
 
-    .item {
-        margin-bottom: 10px;
+    .titulo {
+        font-size: 2.2em;
+        margin-bottom: 30px;
+        text-align: center;
     }
 
-    .item p {
-        margin-left: 20px;
+    div.conteudo {
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+    .coluna-esquerda {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .coluna-esquerda p {
+        text-align: center;
+    }
+
+    .coluna-direita {
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+    .lista-itens {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        width: 60%;
+        padding-left: 163px;
+        font-size: 17px;
+    }
+
+    .lista-itens .item {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
     }
 
     .sobre__missao_visao_valores div {
@@ -1627,6 +1733,10 @@ form button:hover {
         font-size: 2.7em;
     }
 
+    .swot-box p {
+        line-height: 1.4;
+    }
+
     .swot-item ul li {
         font-size: 1em;
     }
@@ -1645,6 +1755,10 @@ form button:hover {
     footer>div {
         justify-content: space-evenly;
         width: auto;
+    }
+
+    .logoFooter img {
+        width: 100px;
     }
 }
 
