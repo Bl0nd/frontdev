@@ -56,8 +56,8 @@
             <img src="./assets/img/js.png" alt="js">
             <img src="./assets/img/php.png" alt="php">
             <img src="./assets/img/sql.png" alt="sql">
+            <img src="./assets/img/pwa.png" alt="pwa">
         </div>
-    </section>
     </section>
 
     <section class="services">
@@ -96,7 +96,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="process-container">
