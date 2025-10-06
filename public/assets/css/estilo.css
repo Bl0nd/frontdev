@@ -1811,7 +1811,17 @@ form button:hover {
     }
 
     .coluna-esquerda p {
-        font-size: 1.1em;
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .lista-itens .item {
+        flex: 0 0 calc(45% - 15px);
+        max-width: calc(45% - 20px);
+    }
+
+    .lista-itens .item {
+        padding: 20px 15px;
     }
 
     .hi-slide .hi-next {
@@ -1820,6 +1830,12 @@ form button:hover {
 
     .carrossel {
         height: 35vh;
+    }
+
+    /* SWOT */
+    .swot-grid {
+        display: flex;
+        flex-direction: column;
     }
 
     .swot-item h3 {
@@ -1834,8 +1850,14 @@ form button:hover {
         font-size: 0.8em;
     }
 
-    /* PERGUNTAS FREQUÊNTES */
+    /* balao */
+    .balao h3 {
+        font-size: 2em;
+    }
 
+    .descri {
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width: 500px) {
