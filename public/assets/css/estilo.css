@@ -8,7 +8,7 @@
     --cor-terciaria: #000;
     --cor-quaternaria: #007BFF;
     --cor-destaque: #ffff;
-    --destaque-neon: #00ffff; 
+    --destaque-neon: #00ffff;
 }
 
 h2,
@@ -414,39 +414,39 @@ div.conteudo {
     margin-bottom: 60px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2); 
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
 
 .caixamt {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    align-items: stretch; 
-    position: relative; 
-    max-width: 1200px; 
+    justify-content: space-around;
+    align-items: stretch;
+    position: relative;
+    max-width: 1200px;
     margin: 0 auto;
     column-gap: 15px;
 }
 
-.caixamt > div {
-    width: 15%; 
+.caixamt>div {
+    width: 15%;
     /* height: 100%;  */
     padding: 30px 15px;
     margin: 20px 0;
-    background-color: rgba(0,0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid var(--cor-terciaria);
     border-radius: 12px;
     text-align: center;
     position: relative;
-    z-index: 1; 
+    z-index: 1;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.caixamt > div:hover {
-    transform: translateY(-10px); 
+.caixamt>div:hover {
+    transform: translateY(-10px);
     background-color: rgba(31, 31, 58, 0.8);
     box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2), 0 0 5px rgba(0, 255, 255, 0.5);
 }
@@ -456,19 +456,19 @@ div.conteudo {
     height: 70px;
     margin: 0 auto 20px;
     border-radius: 50%;
-    background-color:var(--cor-quaternaria) ;
+    background-color: var(--cor-quaternaria);
     box-shadow: var(--destaque-neon);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .borda svg {
     width: 35px;
     height: 35px;
-    fill:var(--cor-terciaria); 
+    fill: var(--cor-terciaria);
     z-index: 2;
 }
 
@@ -482,10 +482,10 @@ div.conteudo {
 }
 
 .caixamt p {
-    color: var(--cor-destaque); 
+    color: var(--cor-destaque);
     font-size: 0.9rem;
     line-height: 1.5;
-    text-align: center; 
+    text-align: center;
 }
 
 /*#endregion*/
@@ -1658,6 +1658,21 @@ form button:hover {
         display: none;
     }
 
+    /* Botões do index */
+    .btnIndex {
+        align-items: center;
+        gap: 15px;
+        margin: 30px 0;
+    }
+
+    .btnIndex a {
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 25px;
+        /* width: 80%; */
+        text-align: center;
+    }
+
     /* NOSSA HISTORIA */
     .nossa-historia {
         display: flex;
@@ -1783,6 +1798,46 @@ form button:hover {
     }
 }
 
+@media (max-width: 768px) {
+
+    /* LOGO */
+    .logo {
+        margin-left: 25px;
+    }
+
+    /* BANNER */
+    .texto-video {
+        top: 45%;
+    }
+
+    .coluna-esquerda p {
+        font-size: 1.1em;
+    }
+
+    .hi-slide .hi-next {
+        display: none;
+    }
+
+    .carrossel {
+        height: 35vh;
+    }
+
+    .swot-item h3 {
+        font-size: 1.2em;
+    }
+
+    .pagina ul li {
+        font-size: 0.8em;
+    }
+
+    .ftswot strong {
+        font-size: 0.8em;
+    }
+
+    /* PERGUNTAS FREQUÊNTES */
+
+}
+
 @media (max-width: 500px) {
     .hamburger {
         display: block;
@@ -1868,46 +1923,6 @@ form button:hover {
         align-items: center;
         text-align: center;
     }
-}
-
-@media (max-width: 768px) {
-
-    /* LOGO */
-    .logo {
-        margin-left: 25px;
-    }
-
-    /* BANNER */
-    .texto-video {
-        top: 45%;
-    }
-
-    .coluna-esquerda p {
-        font-size: 1.1em;
-    }
-
-    .hi-slide .hi-next {
-        display: none;
-    }
-
-    .carrossel {
-        height: 35vh;
-    }
-
-    .swot-item h3 {
-        font-size: 1.2em;
-    }
-
-    .pagina ul li {
-        font-size: 0.8em;
-    }
-
-    .ftswot strong {
-        font-size: 0.8em;
-    }
-
-    /* PERGUNTAS FREQUÊNTES */
-
 }
 
 @media (max-width: 360px) {
