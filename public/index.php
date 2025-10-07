@@ -31,7 +31,7 @@
             <div class="site">
                 <div class="texto-video">
                     <h2>Front Dev</h2>
-                    <h3>Agência de criação de sites</h3>
+                    <!-- <h3>Agência de criação de sites</h3> -->
                     <p>⭐ Criação de Sites Profissionais é a nossa missão</p>
                     <div class="btnIndex">
                         <a href="contato.php">Faça seu Orçamento</a>
