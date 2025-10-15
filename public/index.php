@@ -185,35 +185,35 @@
                 <div class="conteudo-pergunta">
                     <h3>Perguntas Frequentes</h3>
                     <details>
-                        <summary>Quais serviços de desenvolvimento web vocês oferecem?</summary>
+                        <summary>Quais serviços de desenvolvimento web vocês oferecem ?</summary>
                         <div>
                             <p>Desenvolvemos websites institucionais, landing pages, sistemas personalizados e aplicativos web. Oferecemos soluções completas, desde o design até a implementação e manutenção.</p>
                         </div>
                     </details>
 
                     <details>
-                        <summary>Quanto tempo leva?</summary>
+                        <summary>Quanto tempo leva ?</summary>
                         <div>
                             <p>O tempo de desenvolvimento varia de acordo com o escopo do projeto. Sites simples podem levar de 4 a 6 semanas, enquanto projetos mais complexos podem levar de 8 a 12 semanas ou mais.</p>
                         </div>
                     </details>
 
                     <details>
-                        <summary>Oferecem suporte e manutenção após o lançamento do site?</summary>
+                        <summary>Oferecem suporte e manutenção após o lançamento do site ?</summary>
                         <div>
                             <p>Sim! Oferecemos pacotes de suporte e manutenção para garantir que o site esteja sempre atualizado e funcionando corretamente.</p>
                         </div>
                     </details>
 
                     <details>
-                        <summary>Como é o processo de design?</summary>
+                        <summary>Como é o processo de design ?</summary>
                         <div>
                             <p>Trabalhamos em estreita colaboração com nossos clientes para garantir que o design atenda às suas expectativas. Apresentamos wireframes e protótipos para feedback antes de partir para a fase final de desenvolvimento.</p>
                         </div>
                     </details>
 
                     <details>
-                        <summary>Qual é o custo para desenvolver um site?</summary>
+                        <summary>Qual é o custo para desenvolver um site ?</summary>
                         <div>
                             <p>O custo varia de acordo com as necessidades específicas do projeto. Oferecemos pacotes flexíveis e personalizados com base no tamanho e complexidade do site.</p>
                         </div>
