@@ -107,7 +107,7 @@
         </section>
 
         <section class="swot wow animate__animated animate__fadeInUp">
-            <h2>Análise SWOT</h2>
+            <h2>Análise Estratégica</h2>
 
             <div class="swot-grid">
                 <!-- Linha 1 -->
@@ -115,7 +115,7 @@
                     <div class="swot-box forcas">
                         <img src="assets/img/forca.png" alt="Ícone Forças">
                         <div>
-                            <h3>Forças</h3>
+                            <h3>Poder de Execução</h3>
                             <p>
                                 Equipe altamente qualificada e comprometida com resultados<br>
                                 Atendimento personalizado, oferecendo soluções específicas<br>
@@ -131,7 +131,7 @@
                     <div class="swot-box oportunidades1">
                         <img src="assets/img/oportunidades.png" alt="Ícone Oportunidades 1">
                         <div>
-                            <h3>Oportunidades</h3>
+                            <h3>Crescimento</h3>
                             <p>
                                 Expansão da demanda por soluções digitais em diversos setores.<br>
                                 Possibilidade de criação de parcerias estratégicas com empresas inovadoras.<br>
@@ -147,7 +147,7 @@
                     <div class="swot-box ameacas1">
                         <img src="assets/img/ameacas.png" alt="Ícone Ameaças 1">
                         <div>
-                            <h3>Ameaças</h3>
+                            <h3>Desafio</h3>
                             <p>
                                 Avanço constante de tecnologias disruptivas exige atualização contínua.<br>
                                 Ambiente regulatório em transformação exige agilidade em conformidade.<br>
@@ -157,14 +157,13 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
 
         <section class="wow animate__animated animate__fadeInUp">
             <div class="promo">
-                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <div class="superior"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                         <path fill="#f0c219" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,181.3C320,181,400,139,480,149.3C560,160,640,224,720,208C800,192,880,96,960,90.7C1040,85,1120,171,1200,202.7C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
                     </svg></div>
                 <div class="cor">
