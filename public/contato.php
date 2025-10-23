@@ -15,7 +15,6 @@ $ok = isset($_GET['ok']) ? (int)$_GET['ok'] : 0;
 $okDb = 0;
 $nome = ''; // Inicializa $nome para evitar Notice no bloco de mensagens
 
-// 1. Verifica se o formulário foi enviado via POST
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // 2. Captura e sanitiza as variáveis do formulário para evitar ataques XSS
@@ -57,21 +56,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $mail->send();
 
-        // Redirecionamento após o envio BEM-SUCEDIDO
-        // Adiciona ?ok=1 na URL para exibir a mensagem de sucesso
         header("Location: contato.php?ok=1");
         exit();
     } catch (Exception $e) {
         // Em caso de erro, registre a mensagem e redirecione
         error_log("Messagem não enviada: {$mail->ErrorInfo}");
-        // Adiciona ?ok=2 na URL para exibir a mensagem de erro
-        header("Location: contato.php?ok=2&nome=" . urlencode($nome)); // Passa o nome para a mensagem de erro
+        header("Location: contato.php?ok=2&nome=" . urlencode($nome));
         exit();
     }
-} // Fim do bloco if (POST)
-
+}
 ?>
-
 
 <!DOCTYPE html>
 <html lang="pt-br">

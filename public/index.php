@@ -107,7 +107,7 @@
         </section>
 
         <section class="swot wow animate__animated animate__fadeInUp">
-            <h2>Análise SWOT</h2>
+            <h2>Análise Estratégica</h2>
 
             <div class="swot-grid">
                 <!-- Linha 1 -->
@@ -115,7 +115,7 @@
                     <div class="swot-box forcas">
                         <img src="assets/img/forca.png" alt="Ícone Forças">
                         <div>
-                            <h3>Forças</h3>
+                            <h3>Poder de Execução</h3>
                             <p>
                                 Equipe altamente qualificada e comprometida com resultados<br>
                                 Atendimento personalizado, oferecendo soluções específicas<br>
@@ -131,7 +131,7 @@
                     <div class="swot-box oportunidades1">
                         <img src="assets/img/oportunidades.png" alt="Ícone Oportunidades 1">
                         <div>
-                            <h3>Oportunidades</h3>
+                            <h3>Crescimento</h3>
                             <p>
                                 Expansão da demanda por soluções digitais em diversos setores.<br>
                                 Possibilidade de criação de parcerias estratégicas com empresas inovadoras.<br>
@@ -147,7 +147,7 @@
                     <div class="swot-box ameacas1">
                         <img src="assets/img/ameacas.png" alt="Ícone Ameaças 1">
                         <div>
-                            <h3>Ameaças</h3>
+                            <h3>Desafio</h3>
                             <p>
                                 Avanço constante de tecnologias disruptivas exige atualização contínua.<br>
                                 Ambiente regulatório em transformação exige agilidade em conformidade.<br>
@@ -157,14 +157,13 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
 
         <section class="wow animate__animated animate__fadeInUp">
             <div class="promo">
-                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <div class="superior"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                         <path fill="#f0c219" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,181.3C320,181,400,139,480,149.3C560,160,640,224,720,208C800,192,880,96,960,90.7C1040,85,1120,171,1200,202.7C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
                     </svg></div>
                 <div class="cor">
@@ -186,35 +185,35 @@
                 <div class="conteudo-pergunta">
                     <h3>Perguntas Frequentes</h3>
                     <details>
-                        <summary>Quais serviços de desenvolvimento web vocês oferecem?</summary>
+                        <summary>Quais serviços de desenvolvimento web vocês oferecem ?</summary>
                         <div>
                             <p>Desenvolvemos websites institucionais, landing pages, sistemas personalizados e aplicativos web. Oferecemos soluções completas, desde o design até a implementação e manutenção.</p>
                         </div>
                     </details>
 
                     <details>
-                        <summary>Quanto tempo leva?</summary>
+                        <summary>Quanto tempo leva ?</summary>
                         <div>
                             <p>O tempo de desenvolvimento varia de acordo com o escopo do projeto. Sites simples podem levar de 4 a 6 semanas, enquanto projetos mais complexos podem levar de 8 a 12 semanas ou mais.</p>
                         </div>
                     </details>
 
                     <details>
-                        <summary>Oferecem suporte e manutenção após o lançamento do site?</summary>
+                        <summary>Oferecem suporte e manutenção após o lançamento do site ?</summary>
                         <div>
                             <p>Sim! Oferecemos pacotes de suporte e manutenção para garantir que o site esteja sempre atualizado e funcionando corretamente.</p>
                         </div>
                     </details>
 
                     <details>
-                        <summary>Como é o processo de design?</summary>
+                        <summary>Como é o processo de design ?</summary>
                         <div>
                             <p>Trabalhamos em estreita colaboração com nossos clientes para garantir que o design atenda às suas expectativas. Apresentamos wireframes e protótipos para feedback antes de partir para a fase final de desenvolvimento.</p>
                         </div>
                     </details>
 
                     <details>
-                        <summary>Qual é o custo para desenvolver um site?</summary>
+                        <summary>Qual é o custo para desenvolver um site ?</summary>
                         <div>
                             <p>O custo varia de acordo com as necessidades específicas do projeto. Oferecemos pacotes flexíveis e personalizados com base no tamanho e complexidade do site.</p>
                         </div>

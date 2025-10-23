@@ -93,7 +93,7 @@
                 <div class="equipe__box">
                     <img src="assets/img/equipe_foto3.png" alt="foto do integrante da equipe">
                     <h3>Iara</h3>
-                    <p>Com uma mente criativa alimentada por viagens, momentos de instrospecção em casa e a paixão pela dança, encontro equilibrio entre inspiração e foco. Cada experiência, seja explorando novos lugares ou apreciando a fluidez dos movimentos, contribui para criar projetos digitais inovadores e harmoniosos.</p>
+                    <p>Com uma mente criativa alimentada por viagens, momentos de instrospecção em casa e a paixão pela dança, encontro equilibrio entre inspiração, foco e a fome de aprender</p>
                     <div class="social">
                         <a href="https://github.com/IaraFreitas" target="_blank">
                             <i class='bx bxl-github'></i></a>

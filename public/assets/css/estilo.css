@@ -531,7 +531,7 @@ div.conteudo {
     max-width: 100%;
     /* height: 95%; */
     display: block;
-    animation: flutuar 3s ease-in-out infinite;
+    animation: flutuar 2s ease-in-out infinite;
 }
 
 /* Animação de subida e descida */
@@ -596,9 +596,9 @@ div.conteudo {
 
 /*#region SWOT */
 .swot {
-    background-color: rgba(0, 0, 0, 0.1);
     padding: 4rem 2rem;
     font-family: 'Segoe UI', sans-serif;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .swot h2 {
@@ -686,6 +686,10 @@ div.conteudo {
     width: 100%;
     margin: 0 auto;
     color: var(--cor-terciaria);
+}
+
+.superior {
+    margin-top: -198px;
 }
 
 svg {
@@ -1056,7 +1060,7 @@ form textarea {
 form button {
     width: 210px;
     height: 45px;
-    margin-left: 350px;
+    margin-left: 100px;
     font-size: 16px;
     font-weight: 700;
     color: var(--cor-principal);
@@ -2143,7 +2147,7 @@ form button:hover {
 
     main .texto-video {
         padding-left: 20px;
-        padding-bottom: 130px;
+        /* padding-bottom: 130px; */
     }
 
     nav ul {
@@ -2227,6 +2231,15 @@ form button:hover {
     }
 
     /* sobre */
+    .diferencial_agencia h2 {
+        font-size: 2rem;
+    }
+
+    .diferencial_agencia p {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
     .sobre__missao_visao_valores div {
         display: flex;
         flex-direction: column;
@@ -2301,6 +2314,19 @@ form button:hover {
         position: static;
         transform: none;
         font-size: 8px;
+    }
+
+    /* Pág servicos */
+    .process-container h2 {
+        font-size: 23px;
+    }
+
+    .process-container p {
+        font-size: 13px;
+    }
+
+    .cor1 {
+        margin-top: -150px;
     }
 
     /* FOOTER */
@@ -2410,7 +2436,7 @@ form button:hover {
 
     /* CARROSSEL */
     .titulo-carrossel h3 {
-        font-size: 2em;
+        font-size: 1em;
     }
 
     /* SWOT */
@@ -2445,8 +2471,17 @@ form button:hover {
     }
 
     /* Sobre */
+    .site_equipe h2 {
+        font-size: 2rem;
+    }
+
+    .diferencial_agencia h2 {
+        font-size: 1.7rem;
+    }
+
     .diferencial_agencia p {
-        line-height: 1.2;
+        font-size: 1rem;
+        line-height: 1;
     }
 
     .sobre__equipe {

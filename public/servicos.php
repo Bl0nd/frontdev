@@ -153,7 +153,7 @@
                 </p>
                 <div>
                     <a href="contato.php">Mandar Email</a>
-                    <a href="#servicos">Conferir nossos Serviços</a>
+                    <!-- <a href="#servicos">Conferir nossos Serviços</a> -->
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
